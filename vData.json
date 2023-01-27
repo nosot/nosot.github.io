@@ -1,65 +1,88 @@
 {
-    "configs": {
-      "app": {
-        "color": "A61F69",
-        "appBar": {
-          "text": "eServices",
-          "textStyle": {
-            "centerTitle": true,
-            "size": 30.0,
-            "bold": true,
-            "maxLines": 1,
-            "color": "EEEEEE"
-          },
-          "color": "A61F69"
+  "configs": {
+    "app": {
+      "color": "13005A",
+      "appBar": {
+        "text": "eServices",
+        "textStyle": {
+          "centerTitle": true,
+          "size": 30.0,
+          "bold": true,
+          "maxLines": 1,
+          "color": "EEEEEE"
         },
-        "appsSize": 50.0,
-        "appsBorder": 5.0,
-        "padding": 8.0,
-        "scrollDirection": "horizontal"
+        "color": null
       },
-      "urgentApps": {
-        "head": {
-          "text": "เรื่องด่วน",
-          "textStyle": {
-            "centerTitle": false,
-            "size": 30.0,
-            "bold": true,
-            "maxLines": 1,
-            "color": "101213"
-          },
-          "color": null
-        },
-        "body": { "color": null }
-      },
-      "normalApps": {
-        "head": {
-          "text": "เรื่องทั่วไป",
-          "textStyle": {
-            "centerTitle": false,
-            "size": 30.0,
-            "bold": true,
-            "maxLines": 1,
-            "color": "101213"
-          },
-          "color": null
-        },
-        "body": { "color": null }
-      }
+      "appsSize": 50.0,
+      "appsBorder": 5.0,
+      "padding": 8.0,
+      "scrollDirection": "horizontal"
     },
-    "urgentApps": [
-      {
-        "configs": {
-          "app": {
-            "api": "https://coolit.hostd4u.com/app/upload",
-            "logo": "https://imgs.search.brave.com/4IFTanhgckclr3iFBXbUwAJf0ILzXpfKQ7bty-h9MDo/rs:fit:720:720:1/g:ce/aHR0cHM6Ly95c3Rj/LmNvai5nby50aC9j/bXMvczE0Mi91NDkx/L2ljb24vc2lyZW4u/cG5n",
-            "background": "https://imgs.search.brave.com/4IFTanhgckclr3iFBXbUwAJf0ILzXpfKQ7bty-h9MDo/rs:fit:720:720:1/g:ce/aHR0cHM6Ly95c3Rj/LmNvai5nby50aC9j/bXMvczE0Mi91NDkx/L2ljb24vc2lyZW4u/cG5n",
-            "color": "00337C",
-            "opacity": 0.15,
-            "padding": 8.0,
-            "area": 100.0,
-            "appBar": {
-              "text": "ติดตามเรื่องด่วน",
+    "urgentApps": {
+      "head": {
+        "text": "เรื่องด่วน",
+        "textStyle": {
+          "centerTitle": false,
+          "size": 30.0,
+          "bold": true,
+          "maxLines": 1,
+          "color": "101213"
+        },
+        "color": null
+      },
+      "body": { "color": null }
+    },
+    "normalApps": {
+      "head": {
+        "text": "เรื่องทั่วไป",
+        "textStyle": {
+          "centerTitle": false,
+          "size": 30.0,
+          "bold": true,
+          "maxLines": 1,
+          "color": "101213"
+        },
+        "color": null
+      },
+      "body": { "color": null }
+    }
+  },
+  "urgentApps": [
+    {
+      "configs": {
+        "app": {
+          "api": "https://coolit.hostd4u.com/app/upload",
+          "logo": "https://imgs.search.brave.com/4IFTanhgckclr3iFBXbUwAJf0ILzXpfKQ7bty-h9MDo/rs:fit:720:720:1/g:ce/aHR0cHM6Ly95c3Rj/LmNvai5nby50aC9j/bXMvczE0Mi91NDkx/L2ljb24vc2lyZW4u/cG5n",
+          "background": "https://imgs.search.brave.com/4IFTanhgckclr3iFBXbUwAJf0ILzXpfKQ7bty-h9MDo/rs:fit:720:720:1/g:ce/aHR0cHM6Ly95c3Rj/LmNvai5nby50aC9j/bXMvczE0Mi91NDkx/L2ljb24vc2lyZW4u/cG5n",
+          "color": "00337C",
+          "opacity": 0.15,
+          "padding": 8.0,
+          "area": 100.0,
+          "appBar": {
+            "text": "ติดตามเรื่องด่วน",
+            "textStyle": {
+              "centerTitle": false,
+              "size": 16.0,
+              "bold": true,
+              "maxLines": 1,
+              "color": "EEEEEE"
+            },
+            "color": null
+          },
+          "head": {
+            "text": "ติดตามเรื่องด่วน",
+            "textStyle": {
+              "centerTitle": false,
+              "size": 16.0,
+              "bold": true,
+              "maxLines": 1,
+              "color": "101213"
+            }
+          },
+          "actions": {
+            "report": {
+              "text": "ยื่นเรื่อง",
+              "icon": { "id": 0, "size": 14.0, "color": "EEEEEE" },
               "textStyle": {
                 "centerTitle": false,
                 "size": 16.0,
@@ -67,64 +90,130 @@
                 "maxLines": 1,
                 "color": "EEEEEE"
               },
-              "color": null
+              "widthPercent": 40.0,
+              "shape": 100.0,
+              "color": "0081C9"
             },
-            "head": {
-              "text": "ติดตามเรื่องด่วน",
+            "follows": {
+              "text": "ติดตามสถานะ",
+              "icon": null,
               "textStyle": {
                 "centerTitle": false,
                 "size": 16.0,
                 "bold": true,
                 "maxLines": 1,
-                "color": "101213"
-              }
+                "color": "EEEEEE"
+              },
+              "widthPercent": 40.0,
+              "shape": 100.0,
+              "color": "0081C9"
             },
-            "actions": {
-              "report": {
-                "text": "ยื่นเรื่อง",
-                "icon": { "id": 0, "size": 14.0, "color": "EEEEEE" },
-                "textStyle": {
-                  "centerTitle": false,
-                  "size": 16.0,
-                  "bold": true,
-                  "maxLines": 1,
-                  "color": "EEEEEE"
-                },
-                "widthPercent": 40.0,
-                "shape": 100.0,
-                "color": "0081C9"
+            "area": {
+              "text": "เหตุในพื้นที่",
+              "icon": null,
+              "textStyle": {
+                "centerTitle": false,
+                "size": 16.0,
+                "bold": true,
+                "maxLines": 1,
+                "color": "EEEEEE"
               },
-              "follows": {
-                "text": "ติดตามสถานะ",
-                "icon": null,
-                "textStyle": {
-                  "centerTitle": false,
-                  "size": 16.0,
-                  "bold": true,
-                  "maxLines": 1,
-                  "color": "EEEEEE"
-                },
-                "widthPercent": 40.0,
-                "shape": 100.0,
-                "color": "0081C9"
+              "widthPercent": 40.0,
+              "shape": 100.0,
+              "color": "0081C9"
+            }
+          }
+        },
+        "report": {
+          "appBar": {
+            "text": "ยื่นเรื่อง",
+            "textStyle": {
+              "centerTitle": false,
+              "size": 16.0,
+              "bold": true,
+              "maxLines": 1,
+              "color": "EEEEEE"
+            },
+            "color": null
+          },
+          "photos": { "heightPercent": 40.0, "color": null },
+          "actions": {
+            "camera": {
+              "text": "กล้อง",
+              "icon": null,
+              "textStyle": {
+                "centerTitle": true,
+                "size": 16.0,
+                "bold": true,
+                "maxLines": 1,
+                "color": "EEEEEE"
               },
-              "area": {
-                "text": "เหตุในพื้นที่",
-                "icon": null,
-                "textStyle": {
-                  "centerTitle": false,
-                  "size": 16.0,
-                  "bold": true,
-                  "maxLines": 1,
-                  "color": "EEEEEE"
-                },
-                "widthPercent": 40.0,
-                "shape": 100.0,
-                "color": "0081C9"
-              }
+              "widthPercent": 40.0,
+              "shape": 100.0,
+              "color": null
+            },
+            "gallery": {
+              "text": "คลังรูป",
+              "icon": null,
+              "textStyle": {
+                "centerTitle": true,
+                "size": 16.0,
+                "bold": true,
+                "maxLines": 1,
+                "color": "EEEEEE"
+              },
+              "widthPercent": 40.0,
+              "shape": 100.0,
+              "color": null
+            },
+            "upload": {
+              "text": "ยืนยัน",
+              "icon": null,
+              "textStyle": {
+                "centerTitle": true,
+                "size": 16.0,
+                "bold": true,
+                "maxLines": 1,
+                "color": "EEEEEE"
+              },
+              "widthPercent": 40.0,
+              "shape": 100.0,
+              "color": null
+            }
+          }
+        },
+        "follows": {
+          "appBar": {
+            "text": "ติดตามสถานะ",
+            "textStyle": {
+              "centerTitle": false,
+              "size": 16.0,
+              "bold": true,
+              "maxLines": 1,
+              "color": "EEEEEE"
+            },
+            "color": null
+          },
+          "photos": { "heightPercent": 6, "color": null },
+          "status": {
+            "textStyle": {
+              "centerTitle": false,
+              "size": 16.0,
+              "bold": true,
+              "maxLines": 1,
+              "color": "101213"
             }
           },
-          "report": {
+          "timeStamp": {
+            "textStyle": {
+              "centerTitle": false,
+              "size": 16.0,
+              "bold": true,
+              "maxLines": 1,
+              "color": "57636c"
+            }
+          },
+          "timelines": {
             "appBar": {
               "text": "ยื่นเรื่อง",
               "textStyle": {
@@ -136,84 +225,67 @@
               },
               "color": null
             },
-            "photos": { "heightPercent": 40.0, "color": null },
-            "actions": {
-              "camera": {
-                "text": "กล้อง",
-                "icon": null,
+            "body": {
+              "status": {
                 "textStyle": {
-                  "centerTitle": true,
+                  "centerTitle": false,
                   "size": 16.0,
                   "bold": true,
                   "maxLines": 1,
-                  "color": "EEEEEE"
+                  "color": "101213"
                 },
-                "widthPercent": 40.0,
-                "shape": 100.0,
                 "color": null
               },
-              "gallery": {
-                "text": "คลังรูป",
-                "icon": null,
+              "agent": {
                 "textStyle": {
-                  "centerTitle": true,
+                  "centerTitle": false,
                   "size": 16.0,
                   "bold": true,
                   "maxLines": 1,
-                  "color": "EEEEEE"
+                  "color": "101213"
                 },
-                "widthPercent": 40.0,
-                "shape": 100.0,
                 "color": null
               },
-              "upload": {
-                "text": "ยืนยัน",
-                "icon": null,
+              "timeStamp": {
                 "textStyle": {
-                  "centerTitle": true,
+                  "centerTitle": false,
                   "size": 16.0,
                   "bold": true,
                   "maxLines": 1,
-                  "color": "EEEEEE"
+                  "color": "89df39"
                 },
-                "widthPercent": 40.0,
-                "shape": 100.0,
                 "color": null
-              }
-            }
-          },
-          "follows": {
-            "appBar": {
-              "text": "ติดตามสถานะ",
-              "textStyle": {
-                "centerTitle": false,
-                "size": 16.0,
-                "bold": true,
-                "maxLines": 1,
-                "color": "EEEEEE"
               },
+              "heightPercent": 10.0,
               "color": null
             },
-            "photos": { "heightPercent": 6, "color": null },
-            "status": {
-              "textStyle": {
-                "centerTitle": false,
-                "size": 16.0,
-                "bold": true,
-                "maxLines": 1,
-                "color": "101213"
+            "dotLine": {
+              "size": { "dot": 20.0, "line": 10.0 },
+              "color": {
+                "onair": "4b39ef",
+                "done": "39d2c0",
+                "cancel": "ff5963",
+                "line": "57636c"
               }
             },
-            "timeStamp": {
-              "textStyle": {
-                "centerTitle": false,
-                "size": 16.0,
-                "bold": true,
-                "maxLines": 1,
-                "color": "57636c"
+            "status": { "size": 20.0, "color": "101213", "bold": true },
+            "agent": { "size": 16.0, "color": "101213", "bold": false },
+            "timeStamp": { "size": 14.0, "color": "57636c", "bold": false },
+            "actions": {
+              "view": {
+                "icon": { "id": 0, "size": 14.0, "color": "EEEEEE" },
+                "button": { "size": 20.0, "color": "0081C9" }
+              },
+              "edit": {
+                "icon": { "id": 1, "size": 14.0, "color": "EEEEEE" },
+                "button": { "size": 20.0, "color": "0081C9" }
+              },
+              "cancel": {
+                "icon": { "id": 2, "size": 14.0, "color": "EEEEEE" },
+                "button": { "size": 20.0, "color": "0081C9" }
               }
             },
-            "timelines": {
+            "details": {
               "appBar": {
                 "text": "ยื่นเรื่อง",
                 "textStyle": {
@@ -221,133 +293,7 @@
                   "size": 16.0,
                   "bold": true,
                   "maxLines": 1,
-                  "color": "EEEEEE"
-                },
-                "color": null
-              },
-              "body": {
-                "status": {
-                  "textStyle": {
-                    "centerTitle": false,
-                    "size": 16.0,
-                    "bold": true,
-                    "maxLines": 1,
-                    "color": "101213"
-                  },
-                  "color": null
-                },
-                "agent": {
-                  "textStyle": {
-                    "centerTitle": false,
-                    "size": 16.0,
-                    "bold": true,
-                    "maxLines": 1,
-                    "color": "101213"
-                  },
-                  "color": null
-                },
-                "timeStamp": {
-                  "textStyle": {
-                    "centerTitle": false,
-                    "size": 16.0,
-                    "bold": true,
-                    "maxLines": 1,
-                    "color": "89df39"
-                  },
-                  "color": null
-                },
-                "heightPercent": 10.0,
-                "color": null
-              },
-              "dotLine": {
-                "size": { "dot": 20.0, "line": 10.0 },
-                "color": {
-                  "onair": "4b39ef",
-                  "done": "39d2c0",
-                  "cancel": "ff5963",
-                  "line": "57636c"
-                }
-              },
-              "status": { "size": 20.0, "color": "101213", "bold": true },
-              "agent": { "size": 16.0, "color": "101213", "bold": false },
-              "timeStamp": { "size": 14.0, "color": "57636c", "bold": false },
-              "actions": {
-                "view": {
-                  "icon": { "id": 0, "size": 14.0, "color": "EEEEEE" },
-                  "button": { "size": 20.0, "color": "0081C9" }
-                },
-                "edit": {
-                  "icon": { "id": 1, "size": 14.0, "color": "EEEEEE" },
-                  "button": { "size": 20.0, "color": "0081C9" }
-                },
-                "cancel": {
-                  "icon": { "id": 2, "size": 14.0, "color": "EEEEEE" },
-                  "button": { "size": 20.0, "color": "0081C9" }
-                }
-              },
-              "details": {
-                "appBar": {
-                  "text": "ยื่นเรื่อง",
-                  "textStyle": {
-                    "centerTitle": false,
-                    "size": 16.0,
-                    "bold": true,
-                    "maxLines": 1,
-                    "color": "101213"
-                  },
-                  "color": null
-                },
-                "photos": { "heightPercent": 40.0, "color": null },
-                "body": {
-                  "textStyle": {
-                    "centerTitle": false,
-                    "size": 16.0,
-                    "bold": true,
-                    "maxLines": 1,
-                    "color": "101213"
-                  },
-                  "color": null
-                },
-                "actions": {
-                  "map": {
-                    "text": "แผนที่",
-                    "icon": null,
-                    "textStyle": {
-                      "centerTitle": true,
-                      "size": 14.0,
-                      "bold": true,
-                      "maxLines": 1,
-                      "color": "EEEEEE"
-                    },
-                    "widthPercent": 40.0,
-                    "shape": 100.0,
-                    "color": "0081C9"
-                  }
-                }
-              }
-            }
-          },
-          "area": {
-            "appBar": {
-              "text": "พื้นที่่",
-              "textStyle": {
-                "centerTitle": false,
-                "size": 16.0,
-                "bold": true,
-                "maxLines": 1,
-                "color": "EEEEEE"
-              },
-              "color": null
-            },
-            "details": {
-              "appBar": {
-                "text": "แผนที่",
-                "textStyle": {
-                  "centerTitle": false,
-                  "size": 16.0,
-                  "bold": true,
-                  "maxLines": 1,
-                  "color": "EEEEEE"
+                  "color": "101213"
                 },
                 "color": null
               },
@@ -357,10 +303,546 @@
                   "centerTitle": false,
                   "size": 16.0,
                   "bold": true,
-                  "maxLines": 10,
+                  "maxLines": 1,
                   "color": "101213"
                 },
+                "color": null
+              },
+              "actions": {
+                "map": {
+                  "text": "แผนที่",
+                  "icon": null,
+                  "textStyle": {
+                    "centerTitle": true,
+                    "size": 14.0,
+                    "bold": true,
+                    "maxLines": 1,
+                    "color": "EEEEEE"
+                  },
+                  "widthPercent": 40.0,
+                  "shape": 100.0,
+                  "color": "0081C9"
+                }
+              }
+            }
+          }
+        },
+        "area": {
+          "appBar": {
+            "text": "พื้นที่่",
+            "textStyle": {
+              "centerTitle": false,
+              "size": 16.0,
+              "bold": true,
+              "maxLines": 1,
+              "color": "EEEEEE"
+            },
+            "color": null
+          },
+          "details": {
+            "appBar": {
+              "text": "แผนที่",
+              "textStyle": {
+                "centerTitle": false,
+                "size": 16.0,
+                "bold": true,
+                "maxLines": 1,
                 "color": "EEEEEE"
+              },
+              "color": null
+            },
+            "photos": { "heightPercent": 40.0, "color": null },
+            "body": {
+              "textStyle": {
+                "centerTitle": false,
+                "size": 16.0,
+                "bold": true,
+                "maxLines": 10,
+                "color": "101213"
+              },
+              "color": "EEEEEE"
+            },
+            "actions": {
+              "map": {
+                "text": "แผนที่",
+                "icon": null,
+                "textStyle": {
+                  "centerTitle": false,
+                  "size": 14.0,
+                  "bold": true,
+                  "maxLines": 1,
+                  "color": "EEEEEE"
+                },
+                "widthPercent": 40.0,
+                "shape": 100.0,
+                "color": "57636c"
+              }
+            }
+          }
+        },
+        "map": {
+          "report": {
+            "appBar": {
+              "text": "แผนที่",
+              "textStyle": {
+                "centerTitle": false,
+                "size": 16.0,
+                "bold": true,
+                "maxLines": 1,
+                "color": "EEEEEE"
+              },
+              "color": null
+            },
+            "marker": { "icon": { "id": 0, "size": 30.0, "color": "FF0032" } },
+            "actions": {
+              "send": {
+                "text": "ยื่นเรื่อง",
+                "icon": null,
+                "textStyle": {
+                  "centerTitle": false,
+                  "size": 16.0,
+                  "bold": true,
+                  "maxLines": 1,
+                  "color": "101213"
+                },
+                "widthPercent": 40.0,
+                "shape": 100.0,
+                "color": "57636c"
+              }
+            }
+          },
+          "view": {
+            "appBar": {
+              "text": "แผนที่",
+              "textStyle": {
+                "centerTitle": false,
+                "size": 16.0,
+                "bold": true,
+                "maxLines": 1,
+                "color": "EEEEEE"
+              },
+              "color": null
+            },
+            "marker": { "icon": { "id": 0, "size": 30.0, "color": "FF0032" } },
+            "actions": {
+              "open": {
+                "text": "แผนที่",
+                "icon": null,
+                "textStyle": {
+                  "centerTitle": true,
+                  "size": 16.0,
+                  "bold": true,
+                  "maxLines": 1,
+                  "color": "EEEEEE"
+                },
+                "widthPercent": 40.0,
+                "shape": 100.0,
+                "color": "0081C9"
+              }
+            }
+          }
+        }
+      },
+      "data": {
+        "follows": [
+          {
+            "timelines": [
+              {
+                "status": { "id": 0, "text": "ดำเนินการ" },
+                "agent": { "text": "สุรยุทธ์ ชาติพิภักดิ์ " },
+                "timeStamp": { "text": "27 ม.ค. 2566" },
+                "details": {
+                  "photos": [
+                    "https://imgs.search.brave.com/HiWFa5eUWvPoNGwuu_qNn700ZxXGPmmcaxgt9aNvAFI/rs:fit:900:660:1/g:ce/aHR0cHM6Ly9pbWcy/LnRoYWlwbmcuY29t/LzIwMTgwMzIzL3dp/ZS9raXNzcG5nLWRv/Y3VtZW50LWNvbnRy/YWN0LXBlbi01YWI1/YjY5N2YzOTQwNS4w/NDI2MjM4MjE1MjE4/NTgxOTk5OTc3Lmpw/Zw",
+                    "https://imgs.search.brave.com/HiWFa5eUWvPoNGwuu_qNn700ZxXGPmmcaxgt9aNvAFI/rs:fit:900:660:1/g:ce/aHR0cHM6Ly9pbWcy/LnRoYWlwbmcuY29t/LzIwMTgwMzIzL3dp/ZS9raXNzcG5nLWRv/Y3VtZW50LWNvbnRy/YWN0LXBlbi01YWI1/YjY5N2YzOTQwNS4w/NDI2MjM4MjE1MjE4/NTgxOTk5OTc3Lmpw/Zw",
+                    "https://imgs.search.brave.com/HiWFa5eUWvPoNGwuu_qNn700ZxXGPmmcaxgt9aNvAFI/rs:fit:900:660:1/g:ce/aHR0cHM6Ly9pbWcy/LnRoYWlwbmcuY29t/LzIwMTgwMzIzL3dp/ZS9raXNzcG5nLWRv/Y3VtZW50LWNvbnRy/YWN0LXBlbi01YWI1/YjY5N2YzOTQwNS4w/NDI2MjM4MjE1MjE4/NTgxOTk5OTc3Lmpw/Zw"
+                  ],
+                  "latLng": "LatLng(latitude:13.636031516225879, longtitude:100.47612976082382)",
+                  "text": "คำร้องของคุณรอดำเนินการ"
+                }
+              },
+              {
+                "status": { "id": 1, "text": "เสร็จสิ้น" },
+                "agent": { "text": "สุรยุทธ์ ชาติพิภักดิ์ " },
+                "timeStamp": { "text": "27 ม.ค. 2566" },
+                "details": {
+                  "photos": [
+                    "https://imgs.search.brave.com/HiWFa5eUWvPoNGwuu_qNn700ZxXGPmmcaxgt9aNvAFI/rs:fit:900:660:1/g:ce/aHR0cHM6Ly9pbWcy/LnRoYWlwbmcuY29t/LzIwMTgwMzIzL3dp/ZS9raXNzcG5nLWRv/Y3VtZW50LWNvbnRy/YWN0LXBlbi01YWI1/YjY5N2YzOTQwNS4w/NDI2MjM4MjE1MjE4/NTgxOTk5OTc3Lmpw/Zw",
+                    "https://imgs.search.brave.com/HiWFa5eUWvPoNGwuu_qNn700ZxXGPmmcaxgt9aNvAFI/rs:fit:900:660:1/g:ce/aHR0cHM6Ly9pbWcy/LnRoYWlwbmcuY29t/LzIwMTgwMzIzL3dp/ZS9raXNzcG5nLWRv/Y3VtZW50LWNvbnRy/YWN0LXBlbi01YWI1/YjY5N2YzOTQwNS4w/NDI2MjM4MjE1MjE4/NTgxOTk5OTc3Lmpw/Zw",
+                    "https://imgs.search.brave.com/HiWFa5eUWvPoNGwuu_qNn700ZxXGPmmcaxgt9aNvAFI/rs:fit:900:660:1/g:ce/aHR0cHM6Ly9pbWcy/LnRoYWlwbmcuY29t/LzIwMTgwMzIzL3dp/ZS9raXNzcG5nLWRv/Y3VtZW50LWNvbnRy/YWN0LXBlbi01YWI1/YjY5N2YzOTQwNS4w/NDI2MjM4MjE1MjE4/NTgxOTk5OTc3Lmpw/Zw"
+                  ],
+                  "latLng": "LatLng(latitude:13.642386981671038, longtitude:100.45978003162405)",
+                  "text": "คำร้องของคุณดำเนินการเสร็จสิ้น"
+                }
+              },
+              {
+                "status": { "id": 2, "text": "ยกเลิก" },
+                "agent": { "text": "สุรยุทธ์ ชาติพิภักดิ์ " },
+                "timeStamp": { "text": "27 ม.ค. 2566" },
+                "details": {
+                  "photos": [
+                    "https://imgs.search.brave.com/HiWFa5eUWvPoNGwuu_qNn700ZxXGPmmcaxgt9aNvAFI/rs:fit:900:660:1/g:ce/aHR0cHM6Ly9pbWcy/LnRoYWlwbmcuY29t/LzIwMTgwMzIzL3dp/ZS9raXNzcG5nLWRv/Y3VtZW50LWNvbnRy/YWN0LXBlbi01YWI1/YjY5N2YzOTQwNS4w/NDI2MjM4MjE1MjE4/NTgxOTk5OTc3Lmpw/Zw",
+                    "https://imgs.search.brave.com/HiWFa5eUWvPoNGwuu_qNn700ZxXGPmmcaxgt9aNvAFI/rs:fit:900:660:1/g:ce/aHR0cHM6Ly9pbWcy/LnRoYWlwbmcuY29t/LzIwMTgwMzIzL3dp/ZS9raXNzcG5nLWRv/Y3VtZW50LWNvbnRy/YWN0LXBlbi01YWI1/YjY5N2YzOTQwNS4w/NDI2MjM4MjE1MjE4/NTgxOTk5OTc3Lmpw/Zw",
+                    "https://imgs.search.brave.com/HiWFa5eUWvPoNGwuu_qNn700ZxXGPmmcaxgt9aNvAFI/rs:fit:900:660:1/g:ce/aHR0cHM6Ly9pbWcy/LnRoYWlwbmcuY29t/LzIwMTgwMzIzL3dp/ZS9raXNzcG5nLWRv/Y3VtZW50LWNvbnRy/YWN0LXBlbi01YWI1/YjY5N2YzOTQwNS4w/NDI2MjM4MjE1MjE4/NTgxOTk5OTc3Lmpw/Zw"
+                  ],
+                  "latLng": "LatLng(latitude:13.633217844090069, longtitude:100.4926838616386)",
+                  "body": { "text": "คุณได้ทำการยกเลิกคำร้อง" }
+                }
+              },
+              {
+                "status": { "id": 2, "text": "ปฏิเสธ" },
+                "agent": { "text": "สุรยุทธ์ ชาติพิภักดิ์ " },
+                "timeStamp": { "text": "27 ม.ค. 2566" },
+                "details": {
+                  "photos": [
+                    "https://imgs.search.brave.com/HiWFa5eUWvPoNGwuu_qNn700ZxXGPmmcaxgt9aNvAFI/rs:fit:900:660:1/g:ce/aHR0cHM6Ly9pbWcy/LnRoYWlwbmcuY29t/LzIwMTgwMzIzL3dp/ZS9raXNzcG5nLWRv/Y3VtZW50LWNvbnRy/YWN0LXBlbi01YWI1/YjY5N2YzOTQwNS4w/NDI2MjM4MjE1MjE4/NTgxOTk5OTc3Lmpw/Zw",
+                    "https://imgs.search.brave.com/HiWFa5eUWvPoNGwuu_qNn700ZxXGPmmcaxgt9aNvAFI/rs:fit:900:660:1/g:ce/aHR0cHM6Ly9pbWcy/LnRoYWlwbmcuY29t/LzIwMTgwMzIzL3dp/ZS9raXNzcG5nLWRv/Y3VtZW50LWNvbnRy/YWN0LXBlbi01YWI1/YjY5N2YzOTQwNS4w/NDI2MjM4MjE1MjE4/NTgxOTk5OTc3Lmpw/Zw",
+                    "https://imgs.search.brave.com/HiWFa5eUWvPoNGwuu_qNn700ZxXGPmmcaxgt9aNvAFI/rs:fit:900:660:1/g:ce/aHR0cHM6Ly9pbWcy/LnRoYWlwbmcuY29t/LzIwMTgwMzIzL3dp/ZS9raXNzcG5nLWRv/Y3VtZW50LWNvbnRy/YWN0LXBlbi01YWI1/YjY5N2YzOTQwNS4w/NDI2MjM4MjE1MjE4/NTgxOTk5OTc3Lmpw/Zw"
+                  ],
+                  "latLng": "LatLng(latitude:13.66043947568893, longtitude:100.4590612447733)",
+                  "text": "คำร้องของคุณไม่ถูกปฎิเสธ"
+                }
+              }
+            ]
+          }
+        ],
+        "area": {
+          "details": [
+            {
+              "photos": [
+                "https://www.ocsc.go.th/sites/default/files/styles/large/public/transfer-to-ocsc.png?itok=yQjAYTTh"
+              ],
+              "latLng": "LatLng(latitude:13.618909426025978, longtitude:100.27581184099759)",
+              "text": "เรื่องร้องเรียนกรณีพนักงานราชการไม่ได้รับเงินค่าตอบเเทนที่ได้ปรับ ตั้งเเต่เดือนมกราคม 2557 จนถึงปัจจุบัน"
+            },
+            {
+              "photos": [
+                "https://www.ocsc.go.th/sites/default/files/styles/large/public/transfer-to-ocsc.png?itok=yQjAYTTh"
+              ],
+              "latLng": "LatLng(latitude:13.627345220611634, longtitude:100.40951170753142)",
+              "text": "ชี้เเจงเรื่องร้องเรียน เลขทะเบียน 2555040030"
+            },
+            {
+              "photos": [
+                "https://www.ocsc.go.th/sites/default/files/styles/large/public/transfer-to-ocsc.png?itok=yQjAYTTh"
+              ],
+              "latLng": "LatLng(latitude:13.643056709889056, longtitude:100.51445375793325)",
+              "text": "ร้องเรียนการตัดไม้"
+            },
+            {
+              "photos": [
+                "https://www.ocsc.go.th/sites/default/files/styles/large/public/transfer-to-ocsc.png?itok=yQjAYTTh"
+              ],
+              "latLng": "LatLng(latitude:13.649369067289216, longtitude:100.50810238196775)",
+              "text": "ร้องขอความเป็นธรรม"
+            },
+            {
+              "photos": [
+                "https://www.ocsc.go.th/sites/default/files/styles/large/public/transfer-to-ocsc.png?itok=yQjAYTTh"
+              ],
+              "latLng": "LatLng(latitude:13.620711418429938, longtitude:100.582564247932)",
+              "text": "ร้องเรียนจากศูนย์บริการประชาชนทางระบบอิเล็กทรอนิกส์ E-Petition"
+            },
+            {
+              "photos": [
+                "https://www.ocsc.go.th/sites/default/files/styles/large/public/transfer-to-ocsc.png?itok=yQjAYTTh"
+              ],
+              "latLng": "LatLng(latitude:13.641572831027819, longtitude:100.66372999257169)",
+              "text": "การปฏิบัติหน้าที่ของเจ้าหน้าที่กรมอุทยานแห่งชาติหน่วยที่ 6 ถ้ำพระเวส อ.นาแก จ.นครพนม"
+            },
+            {
+              "photos": [
+                "https://www.ocsc.go.th/sites/default/files/styles/large/public/transfer-to-ocsc.png?itok=yQjAYTTh"
+              ],
+              "latLng": "LatLng(latitude:13.877293634344301, longtitude:100.56084317252528)",
+              "text": "ขอให้เร่งรัดการแก้ไขปัญหาเรื่องร้องเรียนที่อยู่ในความรับผิดชอบของหน่วยงาน"
+            },
+            {
+              "photos": [
+                "https://www.ocsc.go.th/sites/default/files/styles/large/public/transfer-to-ocsc.png?itok=yQjAYTTh"
+              ],
+              "latLng": "LatLng(latitude:13.764298873386812, longtitude:100.5108350014988)",
+              "text": "ร้องเรียนจากศูนย์บริการประชาชนทางระบบอิเล็กทรอนิกส์ E-Petition ทะเบียน 2556050048"
+            },
+            {
+              "photos": [
+                "https://www.ocsc.go.th/sites/default/files/styles/large/public/transfer-to-ocsc.png?itok=yQjAYTTh"
+              ],
+              "latLng": "LatLng(latitude:13.772266017581089, longtitude:100.38718624157735)",
+              "text": "แต่งตั้งคณกรรมการตรวจสอบข้อเท็จจริง"
+            },
+            {
+              "photos": [
+                "https://www.ocsc.go.th/sites/default/files/styles/large/public/transfer-to-ocsc.png?itok=yQjAYTTh"
+              ],
+              "latLng": "LatLng(latitude:13.72873443375227, longtitude:100.31110313965533)",
+              "text": "การบุกรุกพื้นที่ป่าฐานพิทักษ์ป่าโคกกว้าง เขตรักษาพันธุ์สัตว์ป่าภูวัว"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "normalApps": [
+    {
+      "configs": {
+        "app": {
+          "api": "https://coolit.hostd4u.com/app/upload",
+          "logo": "https://imgs.search.brave.com/4IFTanhgckclr3iFBXbUwAJf0ILzXpfKQ7bty-h9MDo/rs:fit:720:720:1/g:ce/aHR0cHM6Ly95c3Rj/LmNvai5nby50aC9j/bXMvczE0Mi91NDkx/L2ljb24vc2lyZW4u/cG5n",
+          "background": "https://imgs.search.brave.com/4IFTanhgckclr3iFBXbUwAJf0ILzXpfKQ7bty-h9MDo/rs:fit:720:720:1/g:ce/aHR0cHM6Ly95c3Rj/LmNvai5nby50aC9j/bXMvczE0Mi91NDkx/L2ljb24vc2lyZW4u/cG5n",
+          "color": "00337C",
+          "opacity": 0.15,
+          "padding": 8.0,
+          "area": 100.0,
+          "appBar": {
+            "text": "ติดตามเรื่องด่วนเรื่องทั่วไป",
+            "textStyle": {
+              "centerTitle": false,
+              "size": 16.0,
+              "bold": true,
+              "maxLines": 1,
+              "color": "EEEEEE"
+            },
+            "color": null
+          },
+          "head": {
+            "text": "ติดตามเรื่องด่วนเรื่องทั่วไป",
+            "textStyle": {
+              "centerTitle": false,
+              "size": 16.0,
+              "bold": true,
+              "maxLines": 1,
+              "color": "101213"
+            }
+          },
+          "actions": {
+            "report": {
+              "text": "ยื่นเรื่อง",
+              "icon": { "id": 0, "size": 14.0, "color": "EEEEEE" },
+              "textStyle": {
+                "centerTitle": false,
+                "size": 16.0,
+                "bold": true,
+                "maxLines": 1,
+                "color": "EEEEEE"
+              },
+              "widthPercent": 40.0,
+              "shape": 100.0,
+              "color": "0081C9"
+            },
+            "follows": {
+              "text": "ติดตามสถานะ",
+              "icon": null,
+              "textStyle": {
+                "centerTitle": false,
+                "size": 16.0,
+                "bold": true,
+                "maxLines": 1,
+                "color": "EEEEEE"
+              },
+              "widthPercent": 40.0,
+              "shape": 100.0,
+              "color": "0081C9"
+            },
+            "area": {
+              "text": "เหตุในพื้นที่",
+              "icon": null,
+              "textStyle": {
+                "centerTitle": false,
+                "size": 16.0,
+                "bold": true,
+                "maxLines": 1,
+                "color": "EEEEEE"
+              },
+              "widthPercent": 40.0,
+              "shape": 100.0,
+              "color": "0081C9"
+            }
+          }
+        },
+        "report": {
+          "appBar": {
+            "text": "ยื่นเรื่อง",
+            "textStyle": {
+              "centerTitle": false,
+              "size": 16.0,
+              "bold": true,
+              "maxLines": 1,
+              "color": "EEEEEE"
+            },
+            "color": null
+          },
+          "photos": { "heightPercent": 40.0, "color": null },
+          "actions": {
+            "camera": {
+              "text": "กล้อง",
+              "icon": null,
+              "textStyle": {
+                "centerTitle": true,
+                "size": 16.0,
+                "bold": true,
+                "maxLines": 1,
+                "color": "EEEEEE"
+              },
+              "widthPercent": 40.0,
+              "shape": 100.0,
+              "color": null
+            },
+            "gallery": {
+              "text": "คลังรูป",
+              "icon": null,
+              "textStyle": {
+                "centerTitle": true,
+                "size": 16.0,
+                "bold": true,
+                "maxLines": 1,
+                "color": "EEEEEE"
+              },
+              "widthPercent": 40.0,
+              "shape": 100.0,
+              "color": null
+            },
+            "upload": {
+              "text": "ยืนยัน",
+              "icon": null,
+              "textStyle": {
+                "centerTitle": true,
+                "size": 16.0,
+                "bold": true,
+                "maxLines": 1,
+                "color": "EEEEEE"
+              },
+              "widthPercent": 40.0,
+              "shape": 100.0,
+              "color": null
+            }
+          }
+        },
+        "follows": {
+          "appBar": {
+            "text": "ติดตามสถานะ",
+            "textStyle": {
+              "centerTitle": false,
+              "size": 16.0,
+              "bold": true,
+              "maxLines": 1,
+              "color": "EEEEEE"
+            },
+            "color": null
+          },
+          "photos": { "heightPercent": 6, "color": null },
+          "status": {
+            "textStyle": {
+              "centerTitle": false,
+              "size": 16.0,
+              "bold": true,
+              "maxLines": 1,
+              "color": "101213"
+            }
+          },
+          "timeStamp": {
+            "textStyle": {
+              "centerTitle": false,
+              "size": 16.0,
+              "bold": true,
+              "maxLines": 1,
+              "color": "57636c"
+            }
+          },
+          "timelines": {
+            "appBar": {
+              "text": "ยื่นเรื่อง",
+              "textStyle": {
+                "centerTitle": false,
+                "size": 16.0,
+                "bold": true,
+                "maxLines": 1,
+                "color": "EEEEEE"
+              },
+              "color": null
+            },
+            "body": {
+              "status": {
+                "textStyle": {
+                  "centerTitle": false,
+                  "size": 16.0,
+                  "bold": true,
+                  "maxLines": 1,
+                  "color": "101213"
+                },
+                "color": null
+              },
+              "agent": {
+                "textStyle": {
+                  "centerTitle": false,
+                  "size": 16.0,
+                  "bold": true,
+                  "maxLines": 1,
+                  "color": "101213"
+                },
+                "color": null
+              },
+              "timeStamp": {
+                "textStyle": {
+                  "centerTitle": false,
+                  "size": 16.0,
+                  "bold": true,
+                  "maxLines": 1,
+                  "color": "89df39"
+                },
+                "color": null
+              },
+              "heightPercent": 10.0,
+              "color": null
+            },
+            "dotLine": {
+              "size": { "dot": 20.0, "line": 10.0 },
+              "color": {
+                "onair": "4b39ef",
+                "done": "39d2c0",
+                "cancel": "ff5963",
+                "line": "57636c"
+              }
+            },
+            "status": { "size": 20.0, "color": "101213", "bold": true },
+            "agent": { "size": 16.0, "color": "101213", "bold": false },
+            "timeStamp": { "size": 14.0, "color": "57636c", "bold": false },
+            "actions": {
+              "view": {
+                "icon": { "id": 0, "size": 14.0, "color": "EEEEEE" },
+                "button": { "size": 20.0, "color": "0081C9" }
+              },
+              "edit": {
+                "icon": { "id": 1, "size": 14.0, "color": "EEEEEE" },
+                "button": { "size": 20.0, "color": "0081C9" }
+              },
+              "cancel": {
+                "icon": { "id": 2, "size": 14.0, "color": "EEEEEE" },
+                "button": { "size": 20.0, "color": "0081C9" }
+              }
+            },
+            "details": {
+              "appBar": {
+                "text": "ยื่นเรื่อง",
+                "textStyle": {
+                  "centerTitle": false,
+                  "size": 16.0,
+                  "bold": true,
+                  "maxLines": 1,
+                  "color": "101213"
+                },
+                "color": null
+              },
+              "photos": { "heightPercent": 40.0, "color": null },
+              "body": {
+                "textStyle": {
+                  "centerTitle": false,
+                  "size": 16.0,
+                  "bold": true,
+                  "maxLines": 1,
+                  "color": "101213"
+                },
+                "color": null
               },
               "actions": {
                 "map": {
@@ -375,294 +857,27 @@
                   },
                   "widthPercent": 40.0,
                   "shape": 100.0,
-                  "color": "57636c"
-                }
-              }
-            }
-          },
-          "map": {
-            "report": {
-              "appBar": {
-                "text": "แผนที่",
-                "textStyle": {
-                  "centerTitle": false,
-                  "size": 16.0,
-                  "bold": true,
-                  "maxLines": 1,
-                  "color": "EEEEEE"
-                },
-                "color": null
-              },
-              "marker": { "icon": { "id": 0, "size": 30.0, "color": "FF0032" } },
-              "actions": {
-                "send": {
-                  "text": "ยื่นเรื่อง",
-                  "icon": null,
-                  "textStyle": {
-                    "centerTitle": false,
-                    "size": 16.0,
-                    "bold": true,
-                    "maxLines": 1,
-                    "color": "101213"
-                  },
-                  "widthPercent": 40.0,
-                  "shape": 100.0,
-                  "color": "57636c"
-                }
-              }
-            },
-            "view": {
-              "appBar": {
-                "text": "แผนที่",
-                "textStyle": {
-                  "centerTitle": false,
-                  "size": 16.0,
-                  "bold": true,
-                  "maxLines": 1,
-                  "color": "EEEEEE"
-                },
-                "color": null
-              },
-              "marker": { "icon": { "id": 0, "size": 30.0, "color": "FF0032" } },
-              "actions": {
-                "open": {
-                  "text": "แผนที่",
-                  "icon": null,
-                  "textStyle": {
-                    "centerTitle": true,
-                    "size": 16.0,
-                    "bold": true,
-                    "maxLines": 1,
-                    "color": "EEEEEE"
-                  },
-                  "widthPercent": 40.0,
-                  "shape": 100.0,
                   "color": "0081C9"
                 }
               }
             }
           }
         },
-        "data": {
-          "follows": [
-            {
-              "timelines": [
-                {
-                  "status": { "id": 0, "text": "ดำเนินการ" },
-                  "agent": { "text": "สุรยุทธ์ ชาติพิภักดิ์ " },
-                  "timeStamp": { "text": "27 ม.ค. 2566" },
-                  "details": {
-                    "photos": [
-                      "https://imgs.search.brave.com/HiWFa5eUWvPoNGwuu_qNn700ZxXGPmmcaxgt9aNvAFI/rs:fit:900:660:1/g:ce/aHR0cHM6Ly9pbWcy/LnRoYWlwbmcuY29t/LzIwMTgwMzIzL3dp/ZS9raXNzcG5nLWRv/Y3VtZW50LWNvbnRy/YWN0LXBlbi01YWI1/YjY5N2YzOTQwNS4w/NDI2MjM4MjE1MjE4/NTgxOTk5OTc3Lmpw/Zw",
-                      "https://imgs.search.brave.com/HiWFa5eUWvPoNGwuu_qNn700ZxXGPmmcaxgt9aNvAFI/rs:fit:900:660:1/g:ce/aHR0cHM6Ly9pbWcy/LnRoYWlwbmcuY29t/LzIwMTgwMzIzL3dp/ZS9raXNzcG5nLWRv/Y3VtZW50LWNvbnRy/YWN0LXBlbi01YWI1/YjY5N2YzOTQwNS4w/NDI2MjM4MjE1MjE4/NTgxOTk5OTc3Lmpw/Zw",
-                      "https://imgs.search.brave.com/HiWFa5eUWvPoNGwuu_qNn700ZxXGPmmcaxgt9aNvAFI/rs:fit:900:660:1/g:ce/aHR0cHM6Ly9pbWcy/LnRoYWlwbmcuY29t/LzIwMTgwMzIzL3dp/ZS9raXNzcG5nLWRv/Y3VtZW50LWNvbnRy/YWN0LXBlbi01YWI1/YjY5N2YzOTQwNS4w/NDI2MjM4MjE1MjE4/NTgxOTk5OTc3Lmpw/Zw"
-                    ],
-                    "latLng": "LatLng(latitude:13.636031516225879, longtitude:100.47612976082382)",
-                    "text": "คำร้องของคุณรอดำเนินการ"
-                  }
-                },
-                {
-                  "status": { "id": 1, "text": "เสร็จสิ้น" },
-                  "agent": { "text": "สุรยุทธ์ ชาติพิภักดิ์ " },
-                  "timeStamp": { "text": "27 ม.ค. 2566" },
-                  "details": {
-                    "photos": [
-                      "https://imgs.search.brave.com/HiWFa5eUWvPoNGwuu_qNn700ZxXGPmmcaxgt9aNvAFI/rs:fit:900:660:1/g:ce/aHR0cHM6Ly9pbWcy/LnRoYWlwbmcuY29t/LzIwMTgwMzIzL3dp/ZS9raXNzcG5nLWRv/Y3VtZW50LWNvbnRy/YWN0LXBlbi01YWI1/YjY5N2YzOTQwNS4w/NDI2MjM4MjE1MjE4/NTgxOTk5OTc3Lmpw/Zw",
-                      "https://imgs.search.brave.com/HiWFa5eUWvPoNGwuu_qNn700ZxXGPmmcaxgt9aNvAFI/rs:fit:900:660:1/g:ce/aHR0cHM6Ly9pbWcy/LnRoYWlwbmcuY29t/LzIwMTgwMzIzL3dp/ZS9raXNzcG5nLWRv/Y3VtZW50LWNvbnRy/YWN0LXBlbi01YWI1/YjY5N2YzOTQwNS4w/NDI2MjM4MjE1MjE4/NTgxOTk5OTc3Lmpw/Zw",
-                      "https://imgs.search.brave.com/HiWFa5eUWvPoNGwuu_qNn700ZxXGPmmcaxgt9aNvAFI/rs:fit:900:660:1/g:ce/aHR0cHM6Ly9pbWcy/LnRoYWlwbmcuY29t/LzIwMTgwMzIzL3dp/ZS9raXNzcG5nLWRv/Y3VtZW50LWNvbnRy/YWN0LXBlbi01YWI1/YjY5N2YzOTQwNS4w/NDI2MjM4MjE1MjE4/NTgxOTk5OTc3Lmpw/Zw"
-                    ],
-                    "latLng": "LatLng(latitude:13.642386981671038, longtitude:100.45978003162405)",
-                    "text": "คำร้องของคุณดำเนินการเสร็จสิ้น"
-                  }
-                },
-                {
-                  "status": { "id": 2, "text": "ยกเลิก" },
-                  "agent": { "text": "สุรยุทธ์ ชาติพิภักดิ์ " },
-                  "timeStamp": { "text": "27 ม.ค. 2566" },
-                  "details": {
-                    "photos": [
-                      "https://imgs.search.brave.com/HiWFa5eUWvPoNGwuu_qNn700ZxXGPmmcaxgt9aNvAFI/rs:fit:900:660:1/g:ce/aHR0cHM6Ly9pbWcy/LnRoYWlwbmcuY29t/LzIwMTgwMzIzL3dp/ZS9raXNzcG5nLWRv/Y3VtZW50LWNvbnRy/YWN0LXBlbi01YWI1/YjY5N2YzOTQwNS4w/NDI2MjM4MjE1MjE4/NTgxOTk5OTc3Lmpw/Zw",
-                      "https://imgs.search.brave.com/HiWFa5eUWvPoNGwuu_qNn700ZxXGPmmcaxgt9aNvAFI/rs:fit:900:660:1/g:ce/aHR0cHM6Ly9pbWcy/LnRoYWlwbmcuY29t/LzIwMTgwMzIzL3dp/ZS9raXNzcG5nLWRv/Y3VtZW50LWNvbnRy/YWN0LXBlbi01YWI1/YjY5N2YzOTQwNS4w/NDI2MjM4MjE1MjE4/NTgxOTk5OTc3Lmpw/Zw",
-                      "https://imgs.search.brave.com/HiWFa5eUWvPoNGwuu_qNn700ZxXGPmmcaxgt9aNvAFI/rs:fit:900:660:1/g:ce/aHR0cHM6Ly9pbWcy/LnRoYWlwbmcuY29t/LzIwMTgwMzIzL3dp/ZS9raXNzcG5nLWRv/Y3VtZW50LWNvbnRy/YWN0LXBlbi01YWI1/YjY5N2YzOTQwNS4w/NDI2MjM4MjE1MjE4/NTgxOTk5OTc3Lmpw/Zw"
-                    ],
-                    "latLng": "LatLng(latitude:13.633217844090069, longtitude:100.4926838616386)",
-                    "body": { "text": "คุณได้ทำการยกเลิกคำร้อง" }
-                  }
-                },
-                {
-                  "status": { "id": 2, "text": "ปฏิเสธ" },
-                  "agent": { "text": "สุรยุทธ์ ชาติพิภักดิ์ " },
-                  "timeStamp": { "text": "27 ม.ค. 2566" },
-                  "details": {
-                    "photos": [
-                      "https://imgs.search.brave.com/HiWFa5eUWvPoNGwuu_qNn700ZxXGPmmcaxgt9aNvAFI/rs:fit:900:660:1/g:ce/aHR0cHM6Ly9pbWcy/LnRoYWlwbmcuY29t/LzIwMTgwMzIzL3dp/ZS9raXNzcG5nLWRv/Y3VtZW50LWNvbnRy/YWN0LXBlbi01YWI1/YjY5N2YzOTQwNS4w/NDI2MjM4MjE1MjE4/NTgxOTk5OTc3Lmpw/Zw",
-                      "https://imgs.search.brave.com/HiWFa5eUWvPoNGwuu_qNn700ZxXGPmmcaxgt9aNvAFI/rs:fit:900:660:1/g:ce/aHR0cHM6Ly9pbWcy/LnRoYWlwbmcuY29t/LzIwMTgwMzIzL3dp/ZS9raXNzcG5nLWRv/Y3VtZW50LWNvbnRy/YWN0LXBlbi01YWI1/YjY5N2YzOTQwNS4w/NDI2MjM4MjE1MjE4/NTgxOTk5OTc3Lmpw/Zw",
-                      "https://imgs.search.brave.com/HiWFa5eUWvPoNGwuu_qNn700ZxXGPmmcaxgt9aNvAFI/rs:fit:900:660:1/g:ce/aHR0cHM6Ly9pbWcy/LnRoYWlwbmcuY29t/LzIwMTgwMzIzL3dp/ZS9raXNzcG5nLWRv/Y3VtZW50LWNvbnRy/YWN0LXBlbi01YWI1/YjY5N2YzOTQwNS4w/NDI2MjM4MjE1MjE4/NTgxOTk5OTc3Lmpw/Zw"
-                    ],
-                    "latLng": "LatLng(latitude:13.66043947568893, longtitude:100.4590612447733)",
-                    "text": "คำร้องของคุณไม่ถูกปฎิเสธ"
-                  }
-                }
-              ]
-            }
-          ],
-          "area": {
-            "details": [
-              {
-                "photos": [
-                  "https://www.ocsc.go.th/sites/default/files/styles/large/public/transfer-to-ocsc.png?itok=yQjAYTTh"
-                ],
-                "latLng": "LatLng(latitude:13.618909426025978, longtitude:100.27581184099759)",
-                "text": "เรื่องร้องเรียนกรณีพนักงานราชการไม่ได้รับเงินค่าตอบเเทนที่ได้ปรับ ตั้งเเต่เดือนมกราคม 2557 จนถึงปัจจุบัน"
-              },
-              {
-                "photos": [
-                  "https://www.ocsc.go.th/sites/default/files/styles/large/public/transfer-to-ocsc.png?itok=yQjAYTTh"
-                ],
-                "latLng": "LatLng(latitude:13.627345220611634, longtitude:100.40951170753142)",
-                "text": "ชี้เเจงเรื่องร้องเรียน เลขทะเบียน 2555040030"
-              },
-              {
-                "photos": [
-                  "https://www.ocsc.go.th/sites/default/files/styles/large/public/transfer-to-ocsc.png?itok=yQjAYTTh"
-                ],
-                "latLng": "LatLng(latitude:13.643056709889056, longtitude:100.51445375793325)",
-                "text": "ร้องเรียนการตัดไม้"
-              },
-              {
-                "photos": [
-                  "https://www.ocsc.go.th/sites/default/files/styles/large/public/transfer-to-ocsc.png?itok=yQjAYTTh"
-                ],
-                "latLng": "LatLng(latitude:13.649369067289216, longtitude:100.50810238196775)",
-                "text": "ร้องขอความเป็นธรรม"
-              },
-              {
-                "photos": [
-                  "https://www.ocsc.go.th/sites/default/files/styles/large/public/transfer-to-ocsc.png?itok=yQjAYTTh"
-                ],
-                "latLng": "LatLng(latitude:13.620711418429938, longtitude:100.582564247932)",
-                "text": "ร้องเรียนจากศูนย์บริการประชาชนทางระบบอิเล็กทรอนิกส์ E-Petition"
-              },
-              {
-                "photos": [
-                  "https://www.ocsc.go.th/sites/default/files/styles/large/public/transfer-to-ocsc.png?itok=yQjAYTTh"
-                ],
-                "latLng": "LatLng(latitude:13.641572831027819, longtitude:100.66372999257169)",
-                "text": "การปฏิบัติหน้าที่ของเจ้าหน้าที่กรมอุทยานแห่งชาติหน่วยที่ 6 ถ้ำพระเวส อ.นาแก จ.นครพนม"
-              },
-              {
-                "photos": [
-                  "https://www.ocsc.go.th/sites/default/files/styles/large/public/transfer-to-ocsc.png?itok=yQjAYTTh"
-                ],
-                "latLng": "LatLng(latitude:13.877293634344301, longtitude:100.56084317252528)",
-                "text": "ขอให้เร่งรัดการแก้ไขปัญหาเรื่องร้องเรียนที่อยู่ในความรับผิดชอบของหน่วยงาน"
-              },
-              {
-                "photos": [
-                  "https://www.ocsc.go.th/sites/default/files/styles/large/public/transfer-to-ocsc.png?itok=yQjAYTTh"
-                ],
-                "latLng": "LatLng(latitude:13.764298873386812, longtitude:100.5108350014988)",
-                "text": "ร้องเรียนจากศูนย์บริการประชาชนทางระบบอิเล็กทรอนิกส์ E-Petition ทะเบียน 2556050048"
-              },
-              {
-                "photos": [
-                  "https://www.ocsc.go.th/sites/default/files/styles/large/public/transfer-to-ocsc.png?itok=yQjAYTTh"
-                ],
-                "latLng": "LatLng(latitude:13.772266017581089, longtitude:100.38718624157735)",
-                "text": "แต่งตั้งคณกรรมการตรวจสอบข้อเท็จจริง"
-              },
-              {
-                "photos": [
-                  "https://www.ocsc.go.th/sites/default/files/styles/large/public/transfer-to-ocsc.png?itok=yQjAYTTh"
-                ],
-                "latLng": "LatLng(latitude:13.72873443375227, longtitude:100.31110313965533)",
-                "text": "การบุกรุกพื้นที่ป่าฐานพิทักษ์ป่าโคกกว้าง เขตรักษาพันธุ์สัตว์ป่าภูวัว"
-              }
-            ]
-          }
-        }
-      }
-    ],
-    "normalApps": [
-      {
-        "configs": {
-          "app": {
-            "api": "https://coolit.hostd4u.com/app/upload",
-            "logo": "https://imgs.search.brave.com/4IFTanhgckclr3iFBXbUwAJf0ILzXpfKQ7bty-h9MDo/rs:fit:720:720:1/g:ce/aHR0cHM6Ly95c3Rj/LmNvai5nby50aC9j/bXMvczE0Mi91NDkx/L2ljb24vc2lyZW4u/cG5n",
-            "background": "https://imgs.search.brave.com/4IFTanhgckclr3iFBXbUwAJf0ILzXpfKQ7bty-h9MDo/rs:fit:720:720:1/g:ce/aHR0cHM6Ly95c3Rj/LmNvai5nby50aC9j/bXMvczE0Mi91NDkx/L2ljb24vc2lyZW4u/cG5n",
-            "color": "00337C",
-            "opacity": 0.15,
-            "padding": 8.0,
-            "area": 100.0,
-            "appBar": {
-              "text": "ติดตามเรื่องด่วนเรื่องทั่วไป",
-              "textStyle": {
-                "centerTitle": false,
-                "size": 16.0,
-                "bold": true,
-                "maxLines": 1,
-                "color": "EEEEEE"
-              },
-              "color": null
+        "area": {
+          "appBar": {
+            "text": "พื้นที่่",
+            "textStyle": {
+              "centerTitle": false,
+              "size": 16.0,
+              "bold": true,
+              "maxLines": 1,
+              "color": "EEEEEE"
             },
-            "head": {
-              "text": "ติดตามเรื่องด่วนเรื่องทั่วไป",
-              "textStyle": {
-                "centerTitle": false,
-                "size": 16.0,
-                "bold": true,
-                "maxLines": 1,
-                "color": "101213"
-              }
-            },
-            "actions": {
-              "report": {
-                "text": "ยื่นเรื่อง",
-                "icon": { "id": 0, "size": 14.0, "color": "EEEEEE" },
-                "textStyle": {
-                  "centerTitle": false,
-                  "size": 16.0,
-                  "bold": true,
-                  "maxLines": 1,
-                  "color": "EEEEEE"
-                },
-                "widthPercent": 40.0,
-                "shape": 100.0,
-                "color": "0081C9"
-              },
-              "follows": {
-                "text": "ติดตามสถานะ",
-                "icon": null,
-                "textStyle": {
-                  "centerTitle": false,
-                  "size": 16.0,
-                  "bold": true,
-                  "maxLines": 1,
-                  "color": "EEEEEE"
-                },
-                "widthPercent": 40.0,
-                "shape": 100.0,
-                "color": "0081C9"
-              },
-              "area": {
-                "text": "เหตุในพื้นที่",
-                "icon": null,
-                "textStyle": {
-                  "centerTitle": false,
-                  "size": 16.0,
-                  "bold": true,
-                  "maxLines": 1,
-                  "color": "EEEEEE"
-                },
-                "widthPercent": 40.0,
-                "shape": 100.0,
-                "color": "0081C9"
-              }
-            }
+            "color": null
           },
-          "report": {
+          "details": {
             "appBar": {
-              "text": "ยื่นเรื่อง",
+              "text": "แผนที่",
               "textStyle": {
                 "centerTitle": false,
                 "size": 16.0,
@@ -673,451 +888,235 @@
               "color": null
             },
             "photos": { "heightPercent": 40.0, "color": null },
-            "actions": {
-              "camera": {
-                "text": "กล้อง",
-                "icon": null,
-                "textStyle": {
-                  "centerTitle": true,
-                  "size": 16.0,
-                  "bold": true,
-                  "maxLines": 1,
-                  "color": "EEEEEE"
-                },
-                "widthPercent": 40.0,
-                "shape": 100.0,
-                "color": null
-              },
-              "gallery": {
-                "text": "คลังรูป",
-                "icon": null,
-                "textStyle": {
-                  "centerTitle": true,
-                  "size": 16.0,
-                  "bold": true,
-                  "maxLines": 1,
-                  "color": "EEEEEE"
-                },
-                "widthPercent": 40.0,
-                "shape": 100.0,
-                "color": null
-              },
-              "upload": {
-                "text": "ยืนยัน",
-                "icon": null,
-                "textStyle": {
-                  "centerTitle": true,
-                  "size": 16.0,
-                  "bold": true,
-                  "maxLines": 1,
-                  "color": "EEEEEE"
-                },
-                "widthPercent": 40.0,
-                "shape": 100.0,
-                "color": null
-              }
-            }
-          },
-          "follows": {
-            "appBar": {
-              "text": "ติดตามสถานะ",
+            "body": {
               "textStyle": {
                 "centerTitle": false,
                 "size": 16.0,
                 "bold": true,
-                "maxLines": 1,
-                "color": "EEEEEE"
-              },
-              "color": null
-            },
-            "photos": { "heightPercent": 6, "color": null },
-            "status": {
-              "textStyle": {
-                "centerTitle": false,
-                "size": 16.0,
-                "bold": true,
-                "maxLines": 1,
+                "maxLines": 10,
                 "color": "101213"
-              }
+              },
+              "color": "EEEEEE"
             },
-            "timeStamp": {
-              "textStyle": {
-                "centerTitle": false,
-                "size": 16.0,
-                "bold": true,
-                "maxLines": 1,
+            "actions": {
+              "map": {
+                "text": "แผนที่",
+                "icon": null,
+                "textStyle": {
+                  "centerTitle": false,
+                  "size": 14.0,
+                  "bold": true,
+                  "maxLines": 1,
+                  "color": "EEEEEE"
+                },
+                "widthPercent": 40.0,
+                "shape": 100.0,
                 "color": "57636c"
-              }
-            },
-            "timelines": {
-              "appBar": {
-                "text": "ยื่นเรื่อง",
-                "textStyle": {
-                  "centerTitle": false,
-                  "size": 16.0,
-                  "bold": true,
-                  "maxLines": 1,
-                  "color": "EEEEEE"
-                },
-                "color": null
-              },
-              "body": {
-                "status": {
-                  "textStyle": {
-                    "centerTitle": false,
-                    "size": 16.0,
-                    "bold": true,
-                    "maxLines": 1,
-                    "color": "101213"
-                  },
-                  "color": null
-                },
-                "agent": {
-                  "textStyle": {
-                    "centerTitle": false,
-                    "size": 16.0,
-                    "bold": true,
-                    "maxLines": 1,
-                    "color": "101213"
-                  },
-                  "color": null
-                },
-                "timeStamp": {
-                  "textStyle": {
-                    "centerTitle": false,
-                    "size": 16.0,
-                    "bold": true,
-                    "maxLines": 1,
-                    "color": "89df39"
-                  },
-                  "color": null
-                },
-                "heightPercent": 10.0,
-                "color": null
-              },
-              "dotLine": {
-                "size": { "dot": 20.0, "line": 10.0 },
-                "color": {
-                  "onair": "4b39ef",
-                  "done": "39d2c0",
-                  "cancel": "ff5963",
-                  "line": "57636c"
-                }
-              },
-              "status": { "size": 20.0, "color": "101213", "bold": true },
-              "agent": { "size": 16.0, "color": "101213", "bold": false },
-              "timeStamp": { "size": 14.0, "color": "57636c", "bold": false },
-              "actions": {
-                "view": {
-                  "icon": { "id": 0, "size": 14.0, "color": "EEEEEE" },
-                  "button": { "size": 20.0, "color": "0081C9" }
-                },
-                "edit": {
-                  "icon": { "id": 1, "size": 14.0, "color": "EEEEEE" },
-                  "button": { "size": 20.0, "color": "0081C9" }
-                },
-                "cancel": {
-                  "icon": { "id": 2, "size": 14.0, "color": "EEEEEE" },
-                  "button": { "size": 20.0, "color": "0081C9" }
-                }
-              },
-              "details": {
-                "appBar": {
-                  "text": "ยื่นเรื่อง",
-                  "textStyle": {
-                    "centerTitle": false,
-                    "size": 16.0,
-                    "bold": true,
-                    "maxLines": 1,
-                    "color": "101213"
-                  },
-                  "color": null
-                },
-                "photos": { "heightPercent": 40.0, "color": null },
-                "body": {
-                  "textStyle": {
-                    "centerTitle": false,
-                    "size": 16.0,
-                    "bold": true,
-                    "maxLines": 1,
-                    "color": "101213"
-                  },
-                  "color": null
-                },
-                "actions": {
-                  "map": {
-                    "text": "แผนที่",
-                    "icon": null,
-                    "textStyle": {
-                      "centerTitle": false,
-                      "size": 14.0,
-                      "bold": true,
-                      "maxLines": 1,
-                      "color": "EEEEEE"
-                    },
-                    "widthPercent": 40.0,
-                    "shape": 100.0,
-                    "color": "0081C9"
-                  }
-                }
-              }
-            }
-          },
-          "area": {
-            "appBar": {
-              "text": "พื้นที่่",
-              "textStyle": {
-                "centerTitle": false,
-                "size": 16.0,
-                "bold": true,
-                "maxLines": 1,
-                "color": "EEEEEE"
-              },
-              "color": null
-            },
-            "details": {
-              "appBar": {
-                "text": "แผนที่",
-                "textStyle": {
-                  "centerTitle": false,
-                  "size": 16.0,
-                  "bold": true,
-                  "maxLines": 1,
-                  "color": "EEEEEE"
-                },
-                "color": null
-              },
-              "photos": { "heightPercent": 40.0, "color": null },
-              "body": {
-                "textStyle": {
-                  "centerTitle": false,
-                  "size": 16.0,
-                  "bold": true,
-                  "maxLines": 10,
-                  "color": "101213"
-                },
-                "color": "EEEEEE"
-              },
-              "actions": {
-                "map": {
-                  "text": "แผนที่",
-                  "icon": null,
-                  "textStyle": {
-                    "centerTitle": false,
-                    "size": 14.0,
-                    "bold": true,
-                    "maxLines": 1,
-                    "color": "EEEEEE"
-                  },
-                  "widthPercent": 40.0,
-                  "shape": 100.0,
-                  "color": "57636c"
-                }
-              }
-            }
-          },
-          "map": {
-            "report": {
-              "appBar": {
-                "text": "แผนที่",
-                "textStyle": {
-                  "centerTitle": false,
-                  "size": 16.0,
-                  "bold": true,
-                  "maxLines": 1,
-                  "color": "EEEEEE"
-                },
-                "color": null
-              },
-              "marker": { "icon": { "id": 0, "size": 30.0, "color": "FF0032" } },
-              "actions": {
-                "send": {
-                  "text": "ยื่นเรื่อง",
-                  "icon": null,
-                  "textStyle": {
-                    "centerTitle": false,
-                    "size": 16.0,
-                    "bold": true,
-                    "maxLines": 1,
-                    "color": "101213"
-                  },
-                  "widthPercent": 40.0,
-                  "shape": 100.0,
-                  "color": "57636c"
-                }
-              }
-            },
-            "view": {
-              "appBar": {
-                "text": "แผนที่",
-                "textStyle": {
-                  "centerTitle": false,
-                  "size": 16.0,
-                  "bold": true,
-                  "maxLines": 1,
-                  "color": "EEEEEE"
-                },
-                "color": null
-              },
-              "marker": { "icon": { "id": 0, "size": 30.0, "color": "FF0032" } },
-              "actions": {
-                "open": {
-                  "text": "แผนที่",
-                  "icon": null,
-                  "textStyle": {
-                    "centerTitle": true,
-                    "size": 16.0,
-                    "bold": true,
-                    "maxLines": 1,
-                    "color": "EEEEEE"
-                  },
-                  "widthPercent": 40.0,
-                  "shape": 100.0,
-                  "color": "0081C9"
-                }
               }
             }
           }
         },
-        "data": {
-          "follows": [
-            {
-              "timelines": [
-                {
-                  "status": { "id": 0, "text": "ดำเนินการ" },
-                  "agent": { "text": "สุรยุทธ์ ชาติพิภักดิ์ " },
-                  "timeStamp": { "text": "27 ม.ค. 2566" },
-                  "details": {
-                    "photos": [
-                      "https://imgs.search.brave.com/HiWFa5eUWvPoNGwuu_qNn700ZxXGPmmcaxgt9aNvAFI/rs:fit:900:660:1/g:ce/aHR0cHM6Ly9pbWcy/LnRoYWlwbmcuY29t/LzIwMTgwMzIzL3dp/ZS9raXNzcG5nLWRv/Y3VtZW50LWNvbnRy/YWN0LXBlbi01YWI1/YjY5N2YzOTQwNS4w/NDI2MjM4MjE1MjE4/NTgxOTk5OTc3Lmpw/Zw",
-                      "https://imgs.search.brave.com/HiWFa5eUWvPoNGwuu_qNn700ZxXGPmmcaxgt9aNvAFI/rs:fit:900:660:1/g:ce/aHR0cHM6Ly9pbWcy/LnRoYWlwbmcuY29t/LzIwMTgwMzIzL3dp/ZS9raXNzcG5nLWRv/Y3VtZW50LWNvbnRy/YWN0LXBlbi01YWI1/YjY5N2YzOTQwNS4w/NDI2MjM4MjE1MjE4/NTgxOTk5OTc3Lmpw/Zw",
-                      "https://imgs.search.brave.com/HiWFa5eUWvPoNGwuu_qNn700ZxXGPmmcaxgt9aNvAFI/rs:fit:900:660:1/g:ce/aHR0cHM6Ly9pbWcy/LnRoYWlwbmcuY29t/LzIwMTgwMzIzL3dp/ZS9raXNzcG5nLWRv/Y3VtZW50LWNvbnRy/YWN0LXBlbi01YWI1/YjY5N2YzOTQwNS4w/NDI2MjM4MjE1MjE4/NTgxOTk5OTc3Lmpw/Zw"
-                    ],
-                    "latLng": "LatLng(latitude:13.636031516225879, longtitude:100.47612976082382)",
-                    "text": "คำร้องของคุณรอดำเนินการ"
-                  }
+        "map": {
+          "report": {
+            "appBar": {
+              "text": "แผนที่",
+              "textStyle": {
+                "centerTitle": false,
+                "size": 16.0,
+                "bold": true,
+                "maxLines": 1,
+                "color": "EEEEEE"
+              },
+              "color": null
+            },
+            "marker": { "icon": { "id": 0, "size": 30.0, "color": "FF0032" } },
+            "actions": {
+              "send": {
+                "text": "ยื่นเรื่อง",
+                "icon": null,
+                "textStyle": {
+                  "centerTitle": false,
+                  "size": 16.0,
+                  "bold": true,
+                  "maxLines": 1,
+                  "color": "101213"
                 },
-                {
-                  "status": { "id": 1, "text": "เสร็จสิ้น" },
-                  "agent": { "text": "สุรยุทธ์ ชาติพิภักดิ์ " },
-                  "timeStamp": { "text": "27 ม.ค. 2566" },
-                  "details": {
-                    "photos": [
-                      "https://imgs.search.brave.com/HiWFa5eUWvPoNGwuu_qNn700ZxXGPmmcaxgt9aNvAFI/rs:fit:900:660:1/g:ce/aHR0cHM6Ly9pbWcy/LnRoYWlwbmcuY29t/LzIwMTgwMzIzL3dp/ZS9raXNzcG5nLWRv/Y3VtZW50LWNvbnRy/YWN0LXBlbi01YWI1/YjY5N2YzOTQwNS4w/NDI2MjM4MjE1MjE4/NTgxOTk5OTc3Lmpw/Zw",
-                      "https://imgs.search.brave.com/HiWFa5eUWvPoNGwuu_qNn700ZxXGPmmcaxgt9aNvAFI/rs:fit:900:660:1/g:ce/aHR0cHM6Ly9pbWcy/LnRoYWlwbmcuY29t/LzIwMTgwMzIzL3dp/ZS9raXNzcG5nLWRv/Y3VtZW50LWNvbnRy/YWN0LXBlbi01YWI1/YjY5N2YzOTQwNS4w/NDI2MjM4MjE1MjE4/NTgxOTk5OTc3Lmpw/Zw",
-                      "https://imgs.search.brave.com/HiWFa5eUWvPoNGwuu_qNn700ZxXGPmmcaxgt9aNvAFI/rs:fit:900:660:1/g:ce/aHR0cHM6Ly9pbWcy/LnRoYWlwbmcuY29t/LzIwMTgwMzIzL3dp/ZS9raXNzcG5nLWRv/Y3VtZW50LWNvbnRy/YWN0LXBlbi01YWI1/YjY5N2YzOTQwNS4w/NDI2MjM4MjE1MjE4/NTgxOTk5OTc3Lmpw/Zw"
-                    ],
-                    "latLng": "LatLng(latitude:13.642386981671038, longtitude:100.45978003162405)",
-                    "text": "คำร้องของคุณดำเนินการเสร็จสิ้น"
-                  }
-                },
-                {
-                  "status": { "id": 2, "text": "ยกเลิก" },
-                  "agent": { "text": "สุรยุทธ์ ชาติพิภักดิ์ " },
-                  "timeStamp": { "text": "27 ม.ค. 2566" },
-                  "details": {
-                    "photos": [
-                      "https://imgs.search.brave.com/HiWFa5eUWvPoNGwuu_qNn700ZxXGPmmcaxgt9aNvAFI/rs:fit:900:660:1/g:ce/aHR0cHM6Ly9pbWcy/LnRoYWlwbmcuY29t/LzIwMTgwMzIzL3dp/ZS9raXNzcG5nLWRv/Y3VtZW50LWNvbnRy/YWN0LXBlbi01YWI1/YjY5N2YzOTQwNS4w/NDI2MjM4MjE1MjE4/NTgxOTk5OTc3Lmpw/Zw",
-                      "https://imgs.search.brave.com/HiWFa5eUWvPoNGwuu_qNn700ZxXGPmmcaxgt9aNvAFI/rs:fit:900:660:1/g:ce/aHR0cHM6Ly9pbWcy/LnRoYWlwbmcuY29t/LzIwMTgwMzIzL3dp/ZS9raXNzcG5nLWRv/Y3VtZW50LWNvbnRy/YWN0LXBlbi01YWI1/YjY5N2YzOTQwNS4w/NDI2MjM4MjE1MjE4/NTgxOTk5OTc3Lmpw/Zw",
-                      "https://imgs.search.brave.com/HiWFa5eUWvPoNGwuu_qNn700ZxXGPmmcaxgt9aNvAFI/rs:fit:900:660:1/g:ce/aHR0cHM6Ly9pbWcy/LnRoYWlwbmcuY29t/LzIwMTgwMzIzL3dp/ZS9raXNzcG5nLWRv/Y3VtZW50LWNvbnRy/YWN0LXBlbi01YWI1/YjY5N2YzOTQwNS4w/NDI2MjM4MjE1MjE4/NTgxOTk5OTc3Lmpw/Zw"
-                    ],
-                    "latLng": "LatLng(latitude:13.633217844090069, longtitude:100.4926838616386)",
-                    "body": { "text": "คุณได้ทำการยกเลิกคำร้อง" }
-                  }
-                },
-                {
-                  "status": { "id": 2, "text": "ปฏิเสธ" },
-                  "agent": { "text": "สุรยุทธ์ ชาติพิภักดิ์ " },
-                  "timeStamp": { "text": "27 ม.ค. 2566" },
-                  "details": {
-                    "photos": [
-                      "https://imgs.search.brave.com/HiWFa5eUWvPoNGwuu_qNn700ZxXGPmmcaxgt9aNvAFI/rs:fit:900:660:1/g:ce/aHR0cHM6Ly9pbWcy/LnRoYWlwbmcuY29t/LzIwMTgwMzIzL3dp/ZS9raXNzcG5nLWRv/Y3VtZW50LWNvbnRy/YWN0LXBlbi01YWI1/YjY5N2YzOTQwNS4w/NDI2MjM4MjE1MjE4/NTgxOTk5OTc3Lmpw/Zw",
-                      "https://imgs.search.brave.com/HiWFa5eUWvPoNGwuu_qNn700ZxXGPmmcaxgt9aNvAFI/rs:fit:900:660:1/g:ce/aHR0cHM6Ly9pbWcy/LnRoYWlwbmcuY29t/LzIwMTgwMzIzL3dp/ZS9raXNzcG5nLWRv/Y3VtZW50LWNvbnRy/YWN0LXBlbi01YWI1/YjY5N2YzOTQwNS4w/NDI2MjM4MjE1MjE4/NTgxOTk5OTc3Lmpw/Zw",
-                      "https://imgs.search.brave.com/HiWFa5eUWvPoNGwuu_qNn700ZxXGPmmcaxgt9aNvAFI/rs:fit:900:660:1/g:ce/aHR0cHM6Ly9pbWcy/LnRoYWlwbmcuY29t/LzIwMTgwMzIzL3dp/ZS9raXNzcG5nLWRv/Y3VtZW50LWNvbnRy/YWN0LXBlbi01YWI1/YjY5N2YzOTQwNS4w/NDI2MjM4MjE1MjE4/NTgxOTk5OTc3Lmpw/Zw"
-                    ],
-                    "latLng": "LatLng(latitude:13.66043947568893, longtitude:100.4590612447733)",
-                    "text": "คำร้องของคุณไม่ถูกปฎิเสธ"
-                  }
-                }
-              ]
+                "widthPercent": 40.0,
+                "shape": 100.0,
+                "color": "57636c"
+              }
             }
-          ],
-          "area": {
-            "details": [
+          },
+          "view": {
+            "appBar": {
+              "text": "แผนที่",
+              "textStyle": {
+                "centerTitle": false,
+                "size": 16.0,
+                "bold": true,
+                "maxLines": 1,
+                "color": "EEEEEE"
+              },
+              "color": null
+            },
+            "marker": { "icon": { "id": 0, "size": 30.0, "color": "FF0032" } },
+            "actions": {
+              "open": {
+                "text": "แผนที่",
+                "icon": null,
+                "textStyle": {
+                  "centerTitle": true,
+                  "size": 16.0,
+                  "bold": true,
+                  "maxLines": 1,
+                  "color": "EEEEEE"
+                },
+                "widthPercent": 40.0,
+                "shape": 100.0,
+                "color": "0081C9"
+              }
+            }
+          }
+        }
+      },
+      "data": {
+        "follows": [
+          {
+            "timelines": [
               {
-                "photos": [
-                  "https://www.ocsc.go.th/sites/default/files/styles/large/public/transfer-to-ocsc.png?itok=yQjAYTTh"
-                ],
-                "latLng": "LatLng(latitude:13.618909426025978, longtitude:100.27581184099759)",
-                "text": "เรื่องร้องเรียนกรณีพนักงานราชการไม่ได้รับเงินค่าตอบเเทนที่ได้ปรับ ตั้งเเต่เดือนมกราคม 2557 จนถึงปัจจุบัน"
+                "status": { "id": 0, "text": "ดำเนินการ" },
+                "agent": { "text": "สุรยุทธ์ ชาติพิภักดิ์ " },
+                "timeStamp": { "text": "27 ม.ค. 2566" },
+                "details": {
+                  "photos": [
+                    "https://imgs.search.brave.com/HiWFa5eUWvPoNGwuu_qNn700ZxXGPmmcaxgt9aNvAFI/rs:fit:900:660:1/g:ce/aHR0cHM6Ly9pbWcy/LnRoYWlwbmcuY29t/LzIwMTgwMzIzL3dp/ZS9raXNzcG5nLWRv/Y3VtZW50LWNvbnRy/YWN0LXBlbi01YWI1/YjY5N2YzOTQwNS4w/NDI2MjM4MjE1MjE4/NTgxOTk5OTc3Lmpw/Zw",
+                    "https://imgs.search.brave.com/HiWFa5eUWvPoNGwuu_qNn700ZxXGPmmcaxgt9aNvAFI/rs:fit:900:660:1/g:ce/aHR0cHM6Ly9pbWcy/LnRoYWlwbmcuY29t/LzIwMTgwMzIzL3dp/ZS9raXNzcG5nLWRv/Y3VtZW50LWNvbnRy/YWN0LXBlbi01YWI1/YjY5N2YzOTQwNS4w/NDI2MjM4MjE1MjE4/NTgxOTk5OTc3Lmpw/Zw",
+                    "https://imgs.search.brave.com/HiWFa5eUWvPoNGwuu_qNn700ZxXGPmmcaxgt9aNvAFI/rs:fit:900:660:1/g:ce/aHR0cHM6Ly9pbWcy/LnRoYWlwbmcuY29t/LzIwMTgwMzIzL3dp/ZS9raXNzcG5nLWRv/Y3VtZW50LWNvbnRy/YWN0LXBlbi01YWI1/YjY5N2YzOTQwNS4w/NDI2MjM4MjE1MjE4/NTgxOTk5OTc3Lmpw/Zw"
+                  ],
+                  "latLng": "LatLng(latitude:13.636031516225879, longtitude:100.47612976082382)",
+                  "text": "คำร้องของคุณรอดำเนินการ"
+                }
               },
               {
-                "photos": [
-                  "https://www.ocsc.go.th/sites/default/files/styles/large/public/transfer-to-ocsc.png?itok=yQjAYTTh"
-                ],
-                "latLng": "LatLng(latitude:13.627345220611634, longtitude:100.40951170753142)",
-                "text": "ชี้เเจงเรื่องร้องเรียน เลขทะเบียน 2555040030"
+                "status": { "id": 1, "text": "เสร็จสิ้น" },
+                "agent": { "text": "สุรยุทธ์ ชาติพิภักดิ์ " },
+                "timeStamp": { "text": "27 ม.ค. 2566" },
+                "details": {
+                  "photos": [
+                    "https://imgs.search.brave.com/HiWFa5eUWvPoNGwuu_qNn700ZxXGPmmcaxgt9aNvAFI/rs:fit:900:660:1/g:ce/aHR0cHM6Ly9pbWcy/LnRoYWlwbmcuY29t/LzIwMTgwMzIzL3dp/ZS9raXNzcG5nLWRv/Y3VtZW50LWNvbnRy/YWN0LXBlbi01YWI1/YjY5N2YzOTQwNS4w/NDI2MjM4MjE1MjE4/NTgxOTk5OTc3Lmpw/Zw",
+                    "https://imgs.search.brave.com/HiWFa5eUWvPoNGwuu_qNn700ZxXGPmmcaxgt9aNvAFI/rs:fit:900:660:1/g:ce/aHR0cHM6Ly9pbWcy/LnRoYWlwbmcuY29t/LzIwMTgwMzIzL3dp/ZS9raXNzcG5nLWRv/Y3VtZW50LWNvbnRy/YWN0LXBlbi01YWI1/YjY5N2YzOTQwNS4w/NDI2MjM4MjE1MjE4/NTgxOTk5OTc3Lmpw/Zw",
+                    "https://imgs.search.brave.com/HiWFa5eUWvPoNGwuu_qNn700ZxXGPmmcaxgt9aNvAFI/rs:fit:900:660:1/g:ce/aHR0cHM6Ly9pbWcy/LnRoYWlwbmcuY29t/LzIwMTgwMzIzL3dp/ZS9raXNzcG5nLWRv/Y3VtZW50LWNvbnRy/YWN0LXBlbi01YWI1/YjY5N2YzOTQwNS4w/NDI2MjM4MjE1MjE4/NTgxOTk5OTc3Lmpw/Zw"
+                  ],
+                  "latLng": "LatLng(latitude:13.642386981671038, longtitude:100.45978003162405)",
+                  "text": "คำร้องของคุณดำเนินการเสร็จสิ้น"
+                }
               },
               {
-                "photos": [
-                  "https://www.ocsc.go.th/sites/default/files/styles/large/public/transfer-to-ocsc.png?itok=yQjAYTTh"
-                ],
-                "latLng": "LatLng(latitude:13.643056709889056, longtitude:100.51445375793325)",
-                "text": "ร้องเรียนการตัดไม้"
+                "status": { "id": 2, "text": "ยกเลิก" },
+                "agent": { "text": "สุรยุทธ์ ชาติพิภักดิ์ " },
+                "timeStamp": { "text": "27 ม.ค. 2566" },
+                "details": {
+                  "photos": [
+                    "https://imgs.search.brave.com/HiWFa5eUWvPoNGwuu_qNn700ZxXGPmmcaxgt9aNvAFI/rs:fit:900:660:1/g:ce/aHR0cHM6Ly9pbWcy/LnRoYWlwbmcuY29t/LzIwMTgwMzIzL3dp/ZS9raXNzcG5nLWRv/Y3VtZW50LWNvbnRy/YWN0LXBlbi01YWI1/YjY5N2YzOTQwNS4w/NDI2MjM4MjE1MjE4/NTgxOTk5OTc3Lmpw/Zw",
+                    "https://imgs.search.brave.com/HiWFa5eUWvPoNGwuu_qNn700ZxXGPmmcaxgt9aNvAFI/rs:fit:900:660:1/g:ce/aHR0cHM6Ly9pbWcy/LnRoYWlwbmcuY29t/LzIwMTgwMzIzL3dp/ZS9raXNzcG5nLWRv/Y3VtZW50LWNvbnRy/YWN0LXBlbi01YWI1/YjY5N2YzOTQwNS4w/NDI2MjM4MjE1MjE4/NTgxOTk5OTc3Lmpw/Zw",
+                    "https://imgs.search.brave.com/HiWFa5eUWvPoNGwuu_qNn700ZxXGPmmcaxgt9aNvAFI/rs:fit:900:660:1/g:ce/aHR0cHM6Ly9pbWcy/LnRoYWlwbmcuY29t/LzIwMTgwMzIzL3dp/ZS9raXNzcG5nLWRv/Y3VtZW50LWNvbnRy/YWN0LXBlbi01YWI1/YjY5N2YzOTQwNS4w/NDI2MjM4MjE1MjE4/NTgxOTk5OTc3Lmpw/Zw"
+                  ],
+                  "latLng": "LatLng(latitude:13.633217844090069, longtitude:100.4926838616386)",
+                  "body": { "text": "คุณได้ทำการยกเลิกคำร้อง" }
+                }
               },
               {
-                "photos": [
-                  "https://www.ocsc.go.th/sites/default/files/styles/large/public/transfer-to-ocsc.png?itok=yQjAYTTh"
-                ],
-                "latLng": "LatLng(latitude:13.649369067289216, longtitude:100.50810238196775)",
-                "text": "ร้องขอความเป็นธรรม"
-              },
-              {
-                "photos": [
-                  "https://www.ocsc.go.th/sites/default/files/styles/large/public/transfer-to-ocsc.png?itok=yQjAYTTh"
-                ],
-                "latLng": "LatLng(latitude:13.620711418429938, longtitude:100.582564247932)",
-                "text": "ร้องเรียนจากศูนย์บริการประชาชนทางระบบอิเล็กทรอนิกส์ E-Petition"
-              },
-              {
-                "photos": [
-                  "https://www.ocsc.go.th/sites/default/files/styles/large/public/transfer-to-ocsc.png?itok=yQjAYTTh"
-                ],
-                "latLng": "LatLng(latitude:13.641572831027819, longtitude:100.66372999257169)",
-                "text": "การปฏิบัติหน้าที่ของเจ้าหน้าที่กรมอุทยานแห่งชาติหน่วยที่ 6 ถ้ำพระเวส อ.นาแก จ.นครพนม"
-              },
-              {
-                "photos": [
-                  "https://www.ocsc.go.th/sites/default/files/styles/large/public/transfer-to-ocsc.png?itok=yQjAYTTh"
-                ],
-                "latLng": "LatLng(latitude:13.877293634344301, longtitude:100.56084317252528)",
-                "text": "ขอให้เร่งรัดการแก้ไขปัญหาเรื่องร้องเรียนที่อยู่ในความรับผิดชอบของหน่วยงาน"
-              },
-              {
-                "photos": [
-                  "https://www.ocsc.go.th/sites/default/files/styles/large/public/transfer-to-ocsc.png?itok=yQjAYTTh"
-                ],
-                "latLng": "LatLng(latitude:13.764298873386812, longtitude:100.5108350014988)",
-                "text": "ร้องเรียนจากศูนย์บริการประชาชนทางระบบอิเล็กทรอนิกส์ E-Petition ทะเบียน 2556050048"
-              },
-              {
-                "photos": [
-                  "https://www.ocsc.go.th/sites/default/files/styles/large/public/transfer-to-ocsc.png?itok=yQjAYTTh"
-                ],
-                "latLng": "LatLng(latitude:13.772266017581089, longtitude:100.38718624157735)",
-                "text": "แต่งตั้งคณกรรมการตรวจสอบข้อเท็จจริง"
-              },
-              {
-                "photos": [
-                  "https://www.ocsc.go.th/sites/default/files/styles/large/public/transfer-to-ocsc.png?itok=yQjAYTTh"
-                ],
-                "latLng": "LatLng(latitude:13.72873443375227, longtitude:100.31110313965533)",
-                "text": "การบุกรุกพื้นที่ป่าฐานพิทักษ์ป่าโคกกว้าง เขตรักษาพันธุ์สัตว์ป่าภูวัว"
+                "status": { "id": 2, "text": "ปฏิเสธ" },
+                "agent": { "text": "สุรยุทธ์ ชาติพิภักดิ์ " },
+                "timeStamp": { "text": "27 ม.ค. 2566" },
+                "details": {
+                  "photos": [
+                    "https://imgs.search.brave.com/HiWFa5eUWvPoNGwuu_qNn700ZxXGPmmcaxgt9aNvAFI/rs:fit:900:660:1/g:ce/aHR0cHM6Ly9pbWcy/LnRoYWlwbmcuY29t/LzIwMTgwMzIzL3dp/ZS9raXNzcG5nLWRv/Y3VtZW50LWNvbnRy/YWN0LXBlbi01YWI1/YjY5N2YzOTQwNS4w/NDI2MjM4MjE1MjE4/NTgxOTk5OTc3Lmpw/Zw",
+                    "https://imgs.search.brave.com/HiWFa5eUWvPoNGwuu_qNn700ZxXGPmmcaxgt9aNvAFI/rs:fit:900:660:1/g:ce/aHR0cHM6Ly9pbWcy/LnRoYWlwbmcuY29t/LzIwMTgwMzIzL3dp/ZS9raXNzcG5nLWRv/Y3VtZW50LWNvbnRy/YWN0LXBlbi01YWI1/YjY5N2YzOTQwNS4w/NDI2MjM4MjE1MjE4/NTgxOTk5OTc3Lmpw/Zw",
+                    "https://imgs.search.brave.com/HiWFa5eUWvPoNGwuu_qNn700ZxXGPmmcaxgt9aNvAFI/rs:fit:900:660:1/g:ce/aHR0cHM6Ly9pbWcy/LnRoYWlwbmcuY29t/LzIwMTgwMzIzL3dp/ZS9raXNzcG5nLWRv/Y3VtZW50LWNvbnRy/YWN0LXBlbi01YWI1/YjY5N2YzOTQwNS4w/NDI2MjM4MjE1MjE4/NTgxOTk5OTc3Lmpw/Zw"
+                  ],
+                  "latLng": "LatLng(latitude:13.66043947568893, longtitude:100.4590612447733)",
+                  "text": "คำร้องของคุณไม่ถูกปฎิเสธ"
+                }
               }
             ]
           }
+        ],
+        "area": {
+          "details": [
+            {
+              "photos": [
+                "https://www.ocsc.go.th/sites/default/files/styles/large/public/transfer-to-ocsc.png?itok=yQjAYTTh"
+              ],
+              "latLng": "LatLng(latitude:13.618909426025978, longtitude:100.27581184099759)",
+              "text": "เรื่องร้องเรียนกรณีพนักงานราชการไม่ได้รับเงินค่าตอบเเทนที่ได้ปรับ ตั้งเเต่เดือนมกราคม 2557 จนถึงปัจจุบัน"
+            },
+            {
+              "photos": [
+                "https://www.ocsc.go.th/sites/default/files/styles/large/public/transfer-to-ocsc.png?itok=yQjAYTTh"
+              ],
+              "latLng": "LatLng(latitude:13.627345220611634, longtitude:100.40951170753142)",
+              "text": "ชี้เเจงเรื่องร้องเรียน เลขทะเบียน 2555040030"
+            },
+            {
+              "photos": [
+                "https://www.ocsc.go.th/sites/default/files/styles/large/public/transfer-to-ocsc.png?itok=yQjAYTTh"
+              ],
+              "latLng": "LatLng(latitude:13.643056709889056, longtitude:100.51445375793325)",
+              "text": "ร้องเรียนการตัดไม้"
+            },
+            {
+              "photos": [
+                "https://www.ocsc.go.th/sites/default/files/styles/large/public/transfer-to-ocsc.png?itok=yQjAYTTh"
+              ],
+              "latLng": "LatLng(latitude:13.649369067289216, longtitude:100.50810238196775)",
+              "text": "ร้องขอความเป็นธรรม"
+            },
+            {
+              "photos": [
+                "https://www.ocsc.go.th/sites/default/files/styles/large/public/transfer-to-ocsc.png?itok=yQjAYTTh"
+              ],
+              "latLng": "LatLng(latitude:13.620711418429938, longtitude:100.582564247932)",
+              "text": "ร้องเรียนจากศูนย์บริการประชาชนทางระบบอิเล็กทรอนิกส์ E-Petition"
+            },
+            {
+              "photos": [
+                "https://www.ocsc.go.th/sites/default/files/styles/large/public/transfer-to-ocsc.png?itok=yQjAYTTh"
+              ],
+              "latLng": "LatLng(latitude:13.641572831027819, longtitude:100.66372999257169)",
+              "text": "การปฏิบัติหน้าที่ของเจ้าหน้าที่กรมอุทยานแห่งชาติหน่วยที่ 6 ถ้ำพระเวส อ.นาแก จ.นครพนม"
+            },
+            {
+              "photos": [
+                "https://www.ocsc.go.th/sites/default/files/styles/large/public/transfer-to-ocsc.png?itok=yQjAYTTh"
+              ],
+              "latLng": "LatLng(latitude:13.877293634344301, longtitude:100.56084317252528)",
+              "text": "ขอให้เร่งรัดการแก้ไขปัญหาเรื่องร้องเรียนที่อยู่ในความรับผิดชอบของหน่วยงาน"
+            },
+            {
+              "photos": [
+                "https://www.ocsc.go.th/sites/default/files/styles/large/public/transfer-to-ocsc.png?itok=yQjAYTTh"
+              ],
+              "latLng": "LatLng(latitude:13.764298873386812, longtitude:100.5108350014988)",
+              "text": "ร้องเรียนจากศูนย์บริการประชาชนทางระบบอิเล็กทรอนิกส์ E-Petition ทะเบียน 2556050048"
+            },
+            {
+              "photos": [
+                "https://www.ocsc.go.th/sites/default/files/styles/large/public/transfer-to-ocsc.png?itok=yQjAYTTh"
+              ],
+              "latLng": "LatLng(latitude:13.772266017581089, longtitude:100.38718624157735)",
+              "text": "แต่งตั้งคณกรรมการตรวจสอบข้อเท็จจริง"
+            },
+            {
+              "photos": [
+                "https://www.ocsc.go.th/sites/default/files/styles/large/public/transfer-to-ocsc.png?itok=yQjAYTTh"
+              ],
+              "latLng": "LatLng(latitude:13.72873443375227, longtitude:100.31110313965533)",
+              "text": "การบุกรุกพื้นที่ป่าฐานพิทักษ์ป่าโคกกว้าง เขตรักษาพันธุ์สัตว์ป่าภูวัว"
+            }
+          ]
         }
       }
-    ]
-  }
-  
+    }
+  ]
+}
