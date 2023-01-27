@@ -1,7 +1,7 @@
 {
     "configs": {
       "app": {
-        "color": "13005A",
+        "color": "A61F69",
         "appBar": {
           "text": "eServices",
           "textStyle": {
