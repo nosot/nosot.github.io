@@ -1,7 +1,7 @@
 {
   "configs": {
     "app": {
-      "color": "89df39",
+      "color": "ffffff",
       "appBar": {
         "text": "eServices",
         "textStyle": {
@@ -58,7 +58,7 @@
           },
           "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTy_boXRraAmO2m95_QL7Gq6IYgO7H_3e6vzw&usqp=CAU",
           "background": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTy_boXRraAmO2m95_QL7Gq6IYgO7H_3e6vzw&usqp=CAU",
-          "color": "89df39",
+          "color": "ffffff",
           "opacity": 0.15,
           "padding": 8.0,
           "area": 1.0,
@@ -585,7 +585,7 @@
           },
           "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTy_boXRraAmO2m95_QL7Gq6IYgO7H_3e6vzw&usqp=CAU",
           "background": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTy_boXRraAmO2m95_QL7Gq6IYgO7H_3e6vzw&usqp=CAU",
-          "color": "89df39",
+          "color": "ffffff",
           "opacity": 0.15,
           "padding": 8.0,
           "area": 1.0,
