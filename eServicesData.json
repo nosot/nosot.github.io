@@ -1,7 +1,7 @@
 {
   "configs": {
     "app": {
-      "color": "ffffff",
+      "color": "FF4D4D",
       "appBar": {
         "text": "eServices",
         "textStyle": {
@@ -11,7 +11,7 @@
           "maxLines": 1,
           "color": "101213"
         },
-        "color": "ffffff"
+        "color": "FF4D4D"
       },
       "appsSize": 50.0,
       "appsBorder": 5.0,
@@ -58,7 +58,7 @@
           },
           "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTy_boXRraAmO2m95_QL7Gq6IYgO7H_3e6vzw&usqp=CAU",
           "background": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTy_boXRraAmO2m95_QL7Gq6IYgO7H_3e6vzw&usqp=CAU",
-          "color": "ffffff",
+          "color": "FF4D4D",
           "opacity": 0.15,
           "padding": 8.0,
           "area": 1.0,
@@ -585,7 +585,7 @@
           },
           "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTy_boXRraAmO2m95_QL7Gq6IYgO7H_3e6vzw&usqp=CAU",
           "background": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTy_boXRraAmO2m95_QL7Gq6IYgO7H_3e6vzw&usqp=CAU",
-          "color": "ffffff",
+          "color": "FF4D4D",
           "opacity": 0.15,
           "padding": 8.0,
           "area": 1.0,
