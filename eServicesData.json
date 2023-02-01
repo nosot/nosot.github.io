@@ -954,13 +954,13 @@
               },
               "color": null
             },
-            "marker": { "icon": { "id": 0, "size": 30.0, "color": null } },
+            "marker": { "icon": { "id": 0, "size": 30.0, "color": "CE0000" } },
             "actions": {
               "open": {
                 "text": "แผนที่",
                 "icon": null,
                 "textStyle": {
-                  "centerTitle": false,
+                  "centerTitle": true,
                   "size": 16.0,
                   "bold": true,
                   "maxLines": 1,
@@ -968,7 +968,7 @@
                 },
                 "widthPercent": 40.0,
                 "shape": 100.0,
-                "color": "57636c"
+                "color": "19C243"
               }
             }
           }
