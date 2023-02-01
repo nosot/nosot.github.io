@@ -86,7 +86,7 @@
           "actions": {
             "report": {
               "text": "ยื่นเรื่อง",
-              "icon": { "id": 0, "size": 14.0, "color": "ffffff" },
+              "icon": null,
               "textStyle": {
                 "centerTitle": false,
                 "size": 16.0,
@@ -225,7 +225,7 @@
                 "size": 16.0,
                 "bold": true,
                 "maxLines": 1,
-                "color": "101213"
+                "color": "F2F2F2"
               },
               "color": null
             },
@@ -752,7 +752,7 @@
                 "size": 16.0,
                 "bold": true,
                 "maxLines": 1,
-                "color": "101213"
+                "color": "F2F2F2"
               },
               "color": null
             },
@@ -920,7 +920,7 @@
                 "size": 16.0,
                 "bold": true,
                 "maxLines": 1,
-                "color": "101213"
+                "color": "F2F2F2"
               },
               "color": null
             },
