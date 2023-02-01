@@ -403,15 +403,15 @@
                 "text": "ยื่นเรื่อง",
                 "icon": null,
                 "textStyle": {
-                  "centerTitle": false,
+                  "centerTitle": true,
                   "size": 16.0,
                   "bold": true,
                   "maxLines": 1,
-                  "color": "101213"
+                  "color": "F2F2F2"
                 },
                 "widthPercent": 40.0,
                 "shape": 100.0,
-                "color": "57636c"
+                "color": "19C243"
               }
             }
           },
@@ -423,7 +423,7 @@
                 "size": 16.0,
                 "bold": true,
                 "maxLines": 1,
-                "color": "101213"
+                "color": "F2F2F2"
               },
               "color": null
             },
@@ -437,7 +437,7 @@
                   "size": 16.0,
                   "bold": true,
                   "maxLines": 1,
-                  "color": "101213"
+                  "color": "F2F2F2"
                 },
                 "widthPercent": 40.0,
                 "shape": 100.0,
@@ -930,15 +930,15 @@
                 "text": "ยื่นเรื่อง",
                 "icon": null,
                 "textStyle": {
-                  "centerTitle": false,
+                  "centerTitle": true,
                   "size": 16.0,
                   "bold": true,
                   "maxLines": 1,
-                  "color": "101213"
+                  "color": "F2F2F2"
                 },
                 "widthPercent": 40.0,
                 "shape": 100.0,
-                "color": "57636c"
+                "color": "19C243"
               }
             }
           },
@@ -950,7 +950,7 @@
                 "size": 16.0,
                 "bold": true,
                 "maxLines": 1,
-                "color": "101213"
+                "color": "F2F2F2"
               },
               "color": null
             },
@@ -964,7 +964,7 @@
                   "size": 16.0,
                   "bold": true,
                   "maxLines": 1,
-                  "color": "101213"
+                  "color": "F2F2F2"
                 },
                 "widthPercent": 40.0,
                 "shape": 100.0,
