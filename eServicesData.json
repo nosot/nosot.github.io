@@ -96,7 +96,7 @@
               },
               "widthPercent": 40.0,
               "shape": 100.0,
-              "color": "57636c"
+              "color": "CE0000"
             },
             "follows": {
               "text": "ติดตามสถานะ",
@@ -110,7 +110,7 @@
               },
               "widthPercent": 40.0,
               "shape": 100.0,
-              "color": "57636c"
+              "color": "19C243"
             },
             "area": {
               "text": "เหตุในพื้นที่",
@@ -124,7 +124,7 @@
               },
               "widthPercent": 40.0,
               "shape": 100.0,
-              "color": "57636c"
+              "color": "FFA500"
             }
           }
         },
