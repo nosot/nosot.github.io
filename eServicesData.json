@@ -16,7 +16,7 @@
       "appsSize": 50.0,
       "appsBorder": 5.0,
       "padding": 8.0,
-      "scrollDirection": "horizontal"
+      "scrollDirection": "vertical"
     },
     "urgentApps": {
       "head": {
