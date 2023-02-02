@@ -1,7 +1,7 @@
 {
   "configs": {
     "app": {
-      "color": "ffc266",
+      "color": "89df39",
       "appBar": {
         "text": "eServices",
         "textStyle": {
@@ -11,7 +11,7 @@
           "maxLines": 1,
           "color": "101213"
         },
-        "color": "ffc266"
+        "color": null
       },
       "appsSize": 50.0,
       "appsBorder": 5.0,
@@ -28,7 +28,7 @@
           "maxLines": 1,
           "color": "101213"
         },
-        "color": "FF4D4D"
+        "color": null
       },
       "body": { "color": null }
     },
@@ -42,23 +42,24 @@
           "maxLines": 1,
           "color": "101213"
         },
-        "color": "6666FF"
+        "color": null
       },
       "body": { "color": null }
     }
   },
   "urgentApps": [
     {
-      "id": 0,
       "configs": {
         "app": {
+          "id": 0,
+          "name": "monkey",
           "api": {
             "upload": "https://appdev.hostd4u.com/app/upload",
             "report": "https://appdev.hostd4u.com/app/orders"
           },
           "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTy_boXRraAmO2m95_QL7Gq6IYgO7H_3e6vzw&usqp=CAU",
           "background": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTy_boXRraAmO2m95_QL7Gq6IYgO7H_3e6vzw&usqp=CAU",
-          "color": "FF4D4D",
+          "color": "89df39",
           "opacity": 0.15,
           "padding": 8.0,
           "area": 1.0,
@@ -69,7 +70,7 @@
               "size": 16.0,
               "bold": true,
               "maxLines": 1,
-              "color": "F2F2F2"
+              "color": "101213"
             },
             "color": null
           },
@@ -86,17 +87,17 @@
           "actions": {
             "report": {
               "text": "ยื่นเรื่อง",
-              "icon": null,
+              "icon": { "id": 0, "size": 14.0, "color": "ffffff" },
               "textStyle": {
                 "centerTitle": false,
                 "size": 16.0,
                 "bold": true,
                 "maxLines": 1,
-                "color": "F2F2F2"
+                "color": "101213"
               },
               "widthPercent": 40.0,
               "shape": 100.0,
-              "color": "CE0000"
+              "color": "57636c"
             },
             "follows": {
               "text": "ติดตามสถานะ",
@@ -106,11 +107,11 @@
                 "size": 16.0,
                 "bold": true,
                 "maxLines": 1,
-                "color": "F2F2F2"
+                "color": "101213"
               },
               "widthPercent": 40.0,
               "shape": 100.0,
-              "color": "19C243"
+              "color": "57636c"
             },
             "area": {
               "text": "เหตุในพื้นที่",
@@ -120,11 +121,11 @@
                 "size": 16.0,
                 "bold": true,
                 "maxLines": 1,
-                "color": "F2F2F2"
+                "color": "101213"
               },
               "widthPercent": 40.0,
               "shape": 100.0,
-              "color": "FFA500"
+              "color": "57636c"
             }
           }
         },
@@ -136,7 +137,7 @@
               "size": 16.0,
               "bold": true,
               "maxLines": 1,
-              "color": "F2F2F2"
+              "color": "101213"
             },
             "color": null
           },
@@ -146,43 +147,43 @@
               "text": "กล้อง",
               "icon": null,
               "textStyle": {
-                "centerTitle": true,
+                "centerTitle": false,
                 "size": 16.0,
                 "bold": true,
                 "maxLines": 1,
-                "color": "F2F2F2"
+                "color": "101213"
               },
               "widthPercent": 40.0,
               "shape": 100.0,
-              "color": "002E9B"
+              "color": "57636c"
             },
             "gallery": {
               "text": "คลังรูป",
               "icon": null,
               "textStyle": {
-                "centerTitle": true,
+                "centerTitle": false,
                 "size": 16.0,
                 "bold": true,
                 "maxLines": 1,
-                "color": "F2F2F2"
+                "color": "101213"
               },
               "widthPercent": 40.0,
               "shape": 100.0,
-              "color": "FFA500"
+              "color": "57636c"
             },
             "upload": {
               "text": "ยืนยัน",
               "icon": null,
               "textStyle": {
-                "centerTitle": true,
+                "centerTitle": false,
                 "size": 16.0,
                 "bold": true,
                 "maxLines": 1,
-                "color": "F2F2F2"
+                "color": "101213"
               },
               "widthPercent": 40.0,
               "shape": 100.0,
-              "color": "19C243"
+              "color": "57636c"
             }
           }
         },
@@ -194,7 +195,7 @@
               "size": 16.0,
               "bold": true,
               "maxLines": 1,
-              "color": "F2F2F2"
+              "color": "101213"
             },
             "color": null
           },
@@ -225,7 +226,7 @@
                 "size": 16.0,
                 "bold": true,
                 "maxLines": 1,
-                "color": "F2F2F2"
+                "color": "101213"
               },
               "color": null
             },
@@ -278,15 +279,15 @@
             "actions": {
               "view": {
                 "icon": { "id": 0, "size": 14.0, "color": "ffffff" },
-                "button": { "size": 20.0, "color": "002E9B" }
+                "button": { "size": 20.0, "color": "57636c" }
               },
               "edit": {
                 "icon": { "id": 1, "size": 14.0, "color": "ffffff" },
-                "button": { "size": 20.0, "color": "002E9B" }
+                "button": { "size": 20.0, "color": "57636c" }
               },
               "cancel": {
                 "icon": { "id": 2, "size": 14.0, "color": "ffffff" },
-                "button": { "size": 20.0, "color": "002E9B" }
+                "button": { "size": 20.0, "color": "57636c" }
               }
             },
             "details": {
@@ -317,7 +318,7 @@
                   "text": "แผนที่",
                   "icon": null,
                   "textStyle": {
-                    "centerTitle": true,
+                    "centerTitle": false,
                     "size": 14.0,
                     "bold": true,
                     "maxLines": 1,
@@ -325,7 +326,7 @@
                   },
                   "widthPercent": 40.0,
                   "shape": 100.0,
-                  "color": "19C243"
+                  "color": "57636c"
                 }
               }
             }
@@ -339,7 +340,7 @@
               "size": 16.0,
               "bold": true,
               "maxLines": 1,
-              "color": "F2F2F2"
+              "color": "101213"
             },
             "color": null
           },
@@ -351,7 +352,7 @@
                 "size": 16.0,
                 "bold": true,
                 "maxLines": 1,
-                "color": "F2F2F2"
+                "color": "101213"
               },
               "color": null
             },
@@ -371,7 +372,7 @@
                 "text": "แผนที่",
                 "icon": null,
                 "textStyle": {
-                  "centerTitle": true,
+                  "centerTitle": false,
                   "size": 14.0,
                   "bold": true,
                   "maxLines": 1,
@@ -379,7 +380,7 @@
                 },
                 "widthPercent": 40.0,
                 "shape": 100.0,
-                "color": "19C243"
+                "color": "57636c"
               }
             }
           }
@@ -393,25 +394,25 @@
                 "size": 16.0,
                 "bold": true,
                 "maxLines": 1,
-                "color": "F2F2F2"
+                "color": "101213"
               },
-              "color": null
+              "color": "89df39"
             },
-            "marker": { "icon": { "id": 0, "size": 30.0, "color": "CE0000" } },
+            "marker": { "icon": { "id": 0, "size": 30.0, "color": "57636c" } },
             "actions": {
               "send": {
                 "text": "ยื่นเรื่อง",
                 "icon": null,
                 "textStyle": {
-                  "centerTitle": true,
+                  "centerTitle": false,
                   "size": 16.0,
                   "bold": true,
                   "maxLines": 1,
-                  "color": "F2F2F2"
+                  "color": "101213"
                 },
                 "widthPercent": 40.0,
                 "shape": 100.0,
-                "color": "19C243"
+                "color": "57636c"
               }
             }
           },
@@ -423,25 +424,25 @@
                 "size": 16.0,
                 "bold": true,
                 "maxLines": 1,
-                "color": "F2F2F2"
+                "color": "101213"
               },
-              "color": null
+              "color": "89df39"
             },
-            "marker": { "icon": { "id": 0, "size": 30.0, "color": "CE0000" } },
+            "marker": { "icon": { "id": 0, "size": 30.0, "color": null } },
             "actions": {
               "open": {
                 "text": "แผนที่",
                 "icon": null,
                 "textStyle": {
-                  "centerTitle": true,
+                  "centerTitle": false,
                   "size": 16.0,
                   "bold": true,
                   "maxLines": 1,
-                  "color": "F2F2F2"
+                  "color": "101213"
                 },
                 "widthPercent": 40.0,
                 "shape": 100.0,
-                "color": "19C243"
+                "color": "57636c"
               }
             }
           }
@@ -576,16 +577,17 @@
   ],
   "normalApps": [
     {
-      "id": 0,
       "configs": {
         "app": {
+          "id": 0,
+          "name": "monkey",
           "api": {
             "upload": "https://appdev.hostd4u.com/app/upload",
             "report": "https://appdev.hostd4u.com/app/orders"
           },
           "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTy_boXRraAmO2m95_QL7Gq6IYgO7H_3e6vzw&usqp=CAU",
           "background": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTy_boXRraAmO2m95_QL7Gq6IYgO7H_3e6vzw&usqp=CAU",
-          "color": "6666FF",
+          "color": "89df39",
           "opacity": 0.15,
           "padding": 8.0,
           "area": 1.0,
@@ -596,7 +598,7 @@
               "size": 16.0,
               "bold": true,
               "maxLines": 1,
-              "color": "F2F2F2"
+              "color": "101213"
             },
             "color": null
           },
@@ -619,11 +621,11 @@
                 "size": 16.0,
                 "bold": true,
                 "maxLines": 1,
-                "color": "F2F2F2"
+                "color": "101213"
               },
               "widthPercent": 40.0,
               "shape": 100.0,
-              "color": "002E9B"
+              "color": "57636c"
             },
             "follows": {
               "text": "ติดตามสถานะ",
@@ -633,11 +635,11 @@
                 "size": 16.0,
                 "bold": true,
                 "maxLines": 1,
-                "color": "F2F2F2"
+                "color": "101213"
               },
               "widthPercent": 40.0,
               "shape": 100.0,
-              "color": "19C243"
+              "color": "57636c"
             },
             "area": {
               "text": "เหตุในพื้นที่",
@@ -647,11 +649,11 @@
                 "size": 16.0,
                 "bold": true,
                 "maxLines": 1,
-                "color": "F2F2F2"
+                "color": "101213"
               },
               "widthPercent": 40.0,
               "shape": 100.0,
-              "color": "FFA500"
+              "color": "57636c"
             }
           }
         },
@@ -663,7 +665,7 @@
               "size": 16.0,
               "bold": true,
               "maxLines": 1,
-              "color": "F2F2F2"
+              "color": "101213"
             },
             "color": null
           },
@@ -673,43 +675,43 @@
               "text": "กล้อง",
               "icon": null,
               "textStyle": {
-                "centerTitle": true,
+                "centerTitle": false,
                 "size": 16.0,
                 "bold": true,
                 "maxLines": 1,
-                "color": "F2F2F2"
+                "color": "101213"
               },
               "widthPercent": 40.0,
               "shape": 100.0,
-              "color": "002E9B"
+              "color": "57636c"
             },
             "gallery": {
               "text": "คลังรูป",
               "icon": null,
               "textStyle": {
-                "centerTitle": true,
+                "centerTitle": false,
                 "size": 16.0,
                 "bold": true,
                 "maxLines": 1,
-                "color": "F2F2F2"
+                "color": "101213"
               },
               "widthPercent": 40.0,
               "shape": 100.0,
-              "color": "FFA500"
+              "color": "57636c"
             },
             "upload": {
               "text": "ยืนยัน",
               "icon": null,
               "textStyle": {
-                "centerTitle": true,
+                "centerTitle": false,
                 "size": 16.0,
                 "bold": true,
                 "maxLines": 1,
-                "color": "F2F2F2"
+                "color": "101213"
               },
               "widthPercent": 40.0,
               "shape": 100.0,
-              "color": "19C243"
+              "color": "57636c"
             }
           }
         },
@@ -721,7 +723,7 @@
               "size": 16.0,
               "bold": true,
               "maxLines": 1,
-              "color": "F2F2F2"
+              "color": "101213"
             },
             "color": null
           },
@@ -752,7 +754,7 @@
                 "size": 16.0,
                 "bold": true,
                 "maxLines": 1,
-                "color": "F2F2F2"
+                "color": "101213"
               },
               "color": null
             },
@@ -805,15 +807,15 @@
             "actions": {
               "view": {
                 "icon": { "id": 0, "size": 14.0, "color": "ffffff" },
-                "button": { "size": 20.0, "color": "002E9B" }
+                "button": { "size": 20.0, "color": "57636c" }
               },
               "edit": {
                 "icon": { "id": 1, "size": 14.0, "color": "ffffff" },
-                "button": { "size": 20.0, "color": "002E9B" }
+                "button": { "size": 20.0, "color": "57636c" }
               },
               "cancel": {
                 "icon": { "id": 2, "size": 14.0, "color": "ffffff" },
-                "button": { "size": 20.0, "color": "002E9B" }
+                "button": { "size": 20.0, "color": "57636c" }
               }
             },
             "details": {
@@ -844,7 +846,7 @@
                   "text": "แผนที่",
                   "icon": null,
                   "textStyle": {
-                    "centerTitle": true,
+                    "centerTitle": false,
                     "size": 14.0,
                     "bold": true,
                     "maxLines": 1,
@@ -852,7 +854,7 @@
                   },
                   "widthPercent": 40.0,
                   "shape": 100.0,
-                  "color": "19C243"
+                  "color": "57636c"
                 }
               }
             }
@@ -866,7 +868,7 @@
               "size": 16.0,
               "bold": true,
               "maxLines": 1,
-              "color": "F2F2F2"
+              "color": "101213"
             },
             "color": null
           },
@@ -878,7 +880,7 @@
                 "size": 16.0,
                 "bold": true,
                 "maxLines": 1,
-                "color": "F2F2F2"
+                "color": "101213"
               },
               "color": null
             },
@@ -898,7 +900,7 @@
                 "text": "แผนที่",
                 "icon": null,
                 "textStyle": {
-                  "centerTitle": true,
+                  "centerTitle": false,
                   "size": 14.0,
                   "bold": true,
                   "maxLines": 1,
@@ -906,7 +908,7 @@
                 },
                 "widthPercent": 40.0,
                 "shape": 100.0,
-                "color": "19C243"
+                "color": "57636c"
               }
             }
           }
@@ -920,25 +922,25 @@
                 "size": 16.0,
                 "bold": true,
                 "maxLines": 1,
-                "color": "F2F2F2"
+                "color": "101213"
               },
-              "color": null
+              "color": "89df39"
             },
-            "marker": { "icon": { "id": 2, "size": 30.0, "color": "CE0000" } },
+            "marker": { "icon": { "id": 0, "size": 30.0, "color": "57636c" } },
             "actions": {
               "send": {
                 "text": "ยื่นเรื่อง",
                 "icon": null,
                 "textStyle": {
-                  "centerTitle": true,
+                  "centerTitle": false,
                   "size": 16.0,
                   "bold": true,
                   "maxLines": 1,
-                  "color": "F2F2F2"
+                  "color": "101213"
                 },
                 "widthPercent": 40.0,
                 "shape": 100.0,
-                "color": "19C243"
+                "color": "57636c"
               }
             }
           },
@@ -950,25 +952,25 @@
                 "size": 16.0,
                 "bold": true,
                 "maxLines": 1,
-                "color": "F2F2F2"
+                "color": "101213"
               },
-              "color": null
+              "color": "89df39"
             },
-            "marker": { "icon": { "id": 0, "size": 30.0, "color": "CE0000" } },
+            "marker": { "icon": { "id": 0, "size": 30.0, "color": null } },
             "actions": {
               "open": {
                 "text": "แผนที่",
                 "icon": null,
                 "textStyle": {
-                  "centerTitle": true,
+                  "centerTitle": false,
                   "size": 16.0,
                   "bold": true,
                   "maxLines": 1,
-                  "color": "F2F2F2"
+                  "color": "101213"
                 },
                 "widthPercent": 40.0,
                 "shape": 100.0,
-                "color": "19C243"
+                "color": "57636c"
               }
             }
           }
