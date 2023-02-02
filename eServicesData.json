@@ -53,8 +53,8 @@
       "configs": {
         "app": {
           "api": {
-            "upload": "https://coolit.hostd4u.com/app/upload",
-            "report": "https://coolit.hostd4u.com/app/upload"
+            "upload": "https://appdev.hostd4u.com/app/upload",
+            "report": "https://appdev.hostd4u.com/app/orders"
           },
           "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTy_boXRraAmO2m95_QL7Gq6IYgO7H_3e6vzw&usqp=CAU",
           "background": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTy_boXRraAmO2m95_QL7Gq6IYgO7H_3e6vzw&usqp=CAU",
@@ -580,8 +580,8 @@
       "configs": {
         "app": {
           "api": {
-            "upload": "https://coolit.hostd4u.com/app/upload",
-            "report": "https://coolit.hostd4u.com/app/upload"
+            "upload": "https://appdev.hostd4u.com/app/upload",
+            "report": "https://appdev.hostd4u.com/app/orders"
           },
           "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTy_boXRraAmO2m95_QL7Gq6IYgO7H_3e6vzw&usqp=CAU",
           "background": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTy_boXRraAmO2m95_QL7Gq6IYgO7H_3e6vzw&usqp=CAU",
