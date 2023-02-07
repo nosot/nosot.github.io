@@ -11,7 +11,7 @@
           "maxLines": 1,
           "color": "002e9b"
         },
-        "color": "ffc266"
+        "color": "FFFFFF"
       },
       "appsSize": 50.0,
       "appName": {
@@ -40,9 +40,9 @@
             "maxLines": 1,
             "color": "101213"
           },
-          "color": "f1f4f8"
+          "color": null
         },
-        "body": { "color": null }
+        "body": { "color": "f1f4f8" }
       },
       {
         "id": 1,
@@ -56,9 +56,9 @@
             "maxLines": 1,
             "color": "101213"
           },
-          "color": "f1f4f8"
+          "color": null
         },
-        "body": { "color": null }
+        "body": { "color": "f1f4f8" }
       }
     ]
   },
@@ -77,10 +77,550 @@
                 "report": "https://appdev.hostd4u.com/app/orders"
               },
               "logo": "https://dminboundcdn.generali.co.th/custom-landing-page/cdn-v2/31623132-3633-6262-2d63-3765382d3131.png",
-              "background": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTy_boXRraAmO2m95_QL7Gq6IYgO7H_3e6vzw&usqp=CAU",
-              "color": "f1f4f8",
+              "background": "https://dminboundcdn.generali.co.th/custom-landing-page/cdn-v2/31623132-3633-6262-2d63-3765382d3131.png",
+              "color": null,
               "opacity": 0.15,
-              "padding": 8.0,
+              "padding": 11.0,
+              "area": 1.0,
+              "appBar": {
+                "text": "รายงานการดำเนินการ",
+                "textStyle": {
+                  "centerTitle": false,
+                  "size": 16.0,
+                  "bold": true,
+                  "maxLines": 1,
+                  "color": "101213"
+                },
+                "color": null
+              },
+              "head": {
+                "text": "รายงานการดำเนินการ",
+                "textStyle": {
+                  "centerTitle": false,
+                  "size": 16.0,
+                  "bold": true,
+                  "maxLines": 1,
+                  "color": "101213"
+                }
+              },
+              "actions": {
+                "report": {
+                  "text": "ยื่นเรื่อง",
+                  "icon": null,
+                  "textStyle": {
+                    "centerTitle": false,
+                    "size": 16.0,
+                    "bold": true,
+                    "maxLines": 1,
+                    "color": "F2F2F2"
+                  },
+                  "widthPercent": 40.0,
+                  "shape": 100.0,
+                  "color": "CE0000"
+                },
+                "follows": {
+                  "text": "ติดตามสถานะ",
+                  "icon": null,
+                  "textStyle": {
+                    "centerTitle": false,
+                    "size": 16.0,
+                    "bold": true,
+                    "maxLines": 1,
+                    "color": "F2F2F2"
+                  },
+                  "widthPercent": 40.0,
+                  "shape": 100.0,
+                  "color": "19C243"
+                },
+                "area": {
+                  "text": "เหตุในพื้นที่",
+                  "icon": null,
+                  "textStyle": {
+                    "centerTitle": false,
+                    "size": 16.0,
+                    "bold": true,
+                    "maxLines": 1,
+                    "color": "F2F2F2"
+                  },
+                  "widthPercent": 40.0,
+                  "shape": 100.0,
+                  "color": "FFA500"
+                }
+              }
+            },
+            "report": {
+              "appBar": {
+                "text": "ยื่นเรื่อง",
+                "textStyle": {
+                  "centerTitle": false,
+                  "size": 16.0,
+                  "bold": true,
+                  "maxLines": 1,
+                  "color": "F2F2F2"
+                },
+                "color": null
+              },
+              "photos": { "heightPercent": 40.0, "color": null },
+              "actions": {
+                "camera": {
+                  "text": "กล้อง",
+                  "icon": null,
+                  "textStyle": {
+                    "centerTitle": true,
+                    "size": 16.0,
+                    "bold": true,
+                    "maxLines": 1,
+                    "color": "F2F2F2"
+                  },
+                  "widthPercent": 40.0,
+                  "shape": 100.0,
+                  "color": "002E9B"
+                },
+                "gallery": {
+                  "text": "คลังรูป",
+                  "icon": null,
+                  "textStyle": {
+                    "centerTitle": true,
+                    "size": 16.0,
+                    "bold": true,
+                    "maxLines": 1,
+                    "color": "F2F2F2"
+                  },
+                  "widthPercent": 40.0,
+                  "shape": 100.0,
+                  "color": "FFA500"
+                },
+                "upload": {
+                  "text": "ยืนยัน",
+                  "icon": null,
+                  "textStyle": {
+                    "centerTitle": true,
+                    "size": 16.0,
+                    "bold": true,
+                    "maxLines": 1,
+                    "color": "F2F2F2"
+                  },
+                  "widthPercent": 40.0,
+                  "shape": 100.0,
+                  "color": "19C243"
+                }
+              }
+            },
+            "follows": {
+              "appBar": {
+                "text": "ติดตามสถานะ",
+                "textStyle": {
+                  "centerTitle": false,
+                  "size": 16.0,
+                  "bold": true,
+                  "maxLines": 1,
+                  "color": "F2F2F2"
+                },
+                "color": null
+              },
+              "photos": { "heightPercent": 6, "color": null },
+              "status": {
+                "textStyle": {
+                  "centerTitle": false,
+                  "size": 16.0,
+                  "bold": true,
+                  "maxLines": 1,
+                  "color": "101213"
+                }
+              },
+              "timeStamp": {
+                "textStyle": {
+                  "centerTitle": false,
+                  "size": 16.0,
+                  "bold": true,
+                  "maxLines": 1,
+                  "color": "57636c"
+                }
+              },
+              "timelines": {
+                "appBar": {
+                  "text": "ยื่นเรื่อง",
+                  "textStyle": {
+                    "centerTitle": false,
+                    "size": 16.0,
+                    "bold": true,
+                    "maxLines": 1,
+                    "color": "F2F2F2"
+                  },
+                  "color": null
+                },
+                "body": {
+                  "status": {
+                    "textStyle": {
+                      "centerTitle": false,
+                      "size": 16.0,
+                      "bold": true,
+                      "maxLines": 1,
+                      "color": "101213"
+                    },
+                    "color": null
+                  },
+                  "agent": {
+                    "textStyle": {
+                      "centerTitle": false,
+                      "size": 16.0,
+                      "bold": true,
+                      "maxLines": 1,
+                      "color": "101213"
+                    },
+                    "color": null
+                  },
+                  "timeStamp": {
+                    "textStyle": {
+                      "centerTitle": false,
+                      "size": 16.0,
+                      "bold": true,
+                      "maxLines": 1,
+                      "color": "89df39"
+                    },
+                    "color": null
+                  },
+                  "heightPercent": 10.0,
+                  "color": null
+                },
+                "dotLine": {
+                  "size": { "dot": 20.0, "line": 10.0 },
+                  "color": {
+                    "onair": "4b39ef",
+                    "done": "39d2c0",
+                    "cancel": "ff5963",
+                    "line": "57636c"
+                  }
+                },
+                "status": { "size": 20.0, "color": "101213", "bold": true },
+                "agent": { "size": 16.0, "color": "101213", "bold": false },
+                "timeStamp": {
+                  "size": 14.0,
+                  "color": "57636c",
+                  "bold": false
+                },
+                "actions": {
+                  "view": {
+                    "icon": { "id": 0, "size": 14.0, "color": "ffffff" },
+                    "button": { "size": 20.0, "color": "002E9B" }
+                  },
+                  "edit": {
+                    "icon": { "id": 1, "size": 14.0, "color": "ffffff" },
+                    "button": { "size": 20.0, "color": "002E9B" }
+                  },
+                  "cancel": {
+                    "icon": { "id": 2, "size": 14.0, "color": "ffffff" },
+                    "button": { "size": 20.0, "color": "002E9B" }
+                  }
+                },
+                "details": {
+                  "appBar": {
+                    "text": "ยื่นเรื่อง",
+                    "textStyle": {
+                      "centerTitle": false,
+                      "size": 16.0,
+                      "bold": true,
+                      "maxLines": 1,
+                      "color": "101213"
+                    },
+                    "color": null
+                  },
+                  "photos": { "heightPercent": 40.0, "color": null },
+                  "body": {
+                    "textStyle": {
+                      "centerTitle": false,
+                      "size": 16.0,
+                      "bold": true,
+                      "maxLines": 1,
+                      "color": "101213"
+                    },
+                    "color": null
+                  },
+                  "actions": {
+                    "map": {
+                      "text": "แผนที่",
+                      "icon": null,
+                      "textStyle": {
+                        "centerTitle": true,
+                        "size": 14.0,
+                        "bold": true,
+                        "maxLines": 1,
+                        "color": "ffffff"
+                      },
+                      "widthPercent": 40.0,
+                      "shape": 100.0,
+                      "color": "19C243"
+                    }
+                  }
+                }
+              }
+            },
+            "area": {
+              "appBar": {
+                "text": "พื้นที่่",
+                "textStyle": {
+                  "centerTitle": false,
+                  "size": 16.0,
+                  "bold": true,
+                  "maxLines": 1,
+                  "color": "F2F2F2"
+                },
+                "color": null
+              },
+              "details": {
+                "appBar": {
+                  "text": "แผนที่",
+                  "textStyle": {
+                    "centerTitle": false,
+                    "size": 16.0,
+                    "bold": true,
+                    "maxLines": 1,
+                    "color": "F2F2F2"
+                  },
+                  "color": null
+                },
+                "photos": { "heightPercent": 40.0, "color": null },
+                "body": {
+                  "textStyle": {
+                    "centerTitle": false,
+                    "size": 16.0,
+                    "bold": true,
+                    "maxLines": 10,
+                    "color": "101213"
+                  },
+                  "color": "ffffff"
+                },
+                "actions": {
+                  "map": {
+                    "text": "แผนที่",
+                    "icon": null,
+                    "textStyle": {
+                      "centerTitle": true,
+                      "size": 14.0,
+                      "bold": true,
+                      "maxLines": 1,
+                      "color": "ffffff"
+                    },
+                    "widthPercent": 40.0,
+                    "shape": 100.0,
+                    "color": "19C243"
+                  }
+                }
+              }
+            },
+            "map": {
+              "report": {
+                "appBar": {
+                  "text": "แผนที่",
+                  "textStyle": {
+                    "centerTitle": false,
+                    "size": 16.0,
+                    "bold": true,
+                    "maxLines": 1,
+                    "color": "F2F2F2"
+                  },
+                  "color": null
+                },
+                "marker": {
+                  "icon": { "id": 0, "size": 30.0, "color": "CE0000" }
+                },
+                "actions": {
+                  "send": {
+                    "text": "ยื่นเรื่อง",
+                    "icon": null,
+                    "textStyle": {
+                      "centerTitle": true,
+                      "size": 16.0,
+                      "bold": true,
+                      "maxLines": 1,
+                      "color": "F2F2F2"
+                    },
+                    "widthPercent": 40.0,
+                    "shape": 100.0,
+                    "color": "19C243"
+                  }
+                }
+              },
+              "view": {
+                "appBar": {
+                  "text": "แผนที่",
+                  "textStyle": {
+                    "centerTitle": false,
+                    "size": 16.0,
+                    "bold": true,
+                    "maxLines": 1,
+                    "color": "F2F2F2"
+                  },
+                  "color": null
+                },
+                "marker": {
+                  "icon": { "id": 0, "size": 30.0, "color": "CE0000" }
+                },
+                "actions": {
+                  "open": {
+                    "text": "แผนที่",
+                    "icon": null,
+                    "textStyle": {
+                      "centerTitle": true,
+                      "size": 16.0,
+                      "bold": true,
+                      "maxLines": 1,
+                      "color": "F2F2F2"
+                    },
+                    "widthPercent": 40.0,
+                    "shape": 100.0,
+                    "color": "19C243"
+                  }
+                }
+              }
+            }
+          },
+          "data": {
+            "follows": [
+              {
+                "id": 0,
+                "reporter": { "id": 0, "text": "เฟย" },
+                "timelines": [
+                  {
+                    "status": { "id": 0, "text": "ยื่นเรื่อง" },
+                    "agent": { "id": 0, "text": "พี่เบนซ์" },
+                    "timeStamp": { "text": "25 ม.ค. 2566" },
+                    "details": {
+                      "photos": [
+                        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTy_boXRraAmO2m95_QL7Gq6IYgO7H_3e6vzw&usqp=CAU",
+                        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTy_boXRraAmO2m95_QL7Gq6IYgO7H_3e6vzw&usqp=CAU",
+                        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTy_boXRraAmO2m95_QL7Gq6IYgO7H_3e6vzw&usqp=CAU"
+                      ],
+                      "latLng": "LatLng(latitude:13.847709, longtitude:100.657872)",
+                      "text": "พบลิงก่อกวน"
+                    }
+                  },
+                  {
+                    "status": { "id": 1, "text": "รับเรื่อง" },
+                    "agent": { "id": 0, "text": "พี่เบนซ์" },
+                    "timeStamp": { "text": "25 ม.ค. 2566" },
+                    "details": {
+                      "photos": [
+                        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTy_boXRraAmO2m95_QL7Gq6IYgO7H_3e6vzw&usqp=CAU",
+                        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTy_boXRraAmO2m95_QL7Gq6IYgO7H_3e6vzw&usqp=CAU",
+                        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTy_boXRraAmO2m95_QL7Gq6IYgO7H_3e6vzw&usqp=CAU"
+                      ],
+                      "latLng": "LatLng(latitude:13.847709, longtitude:100.657872)",
+                      "text": "ตอนนี้รับเรื่องแล้วครับ"
+                    }
+                  },
+                  {
+                    "status": { "id": 1, "text": "ดำเนินการ" },
+                    "agent": { "id": 0, "text": "พี่เบนซ์" },
+                    "timeStamp": { "text": "25 ม.ค. 2566" },
+                    "details": {
+                      "photos": [
+                        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTy_boXRraAmO2m95_QL7Gq6IYgO7H_3e6vzw&usqp=CAU",
+                        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTy_boXRraAmO2m95_QL7Gq6IYgO7H_3e6vzw&usqp=CAU",
+                        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTy_boXRraAmO2m95_QL7Gq6IYgO7H_3e6vzw&usqp=CAU"
+                      ],
+                      "latLng": "LatLng(latitude:13.847709, longtitude:100.657872)",
+                      "text": "ตอนนี้เจอน้องแล้วครับ"
+                    }
+                  },
+                  {
+                    "status": { "id": 2, "text": "เสร็จสิ้น" },
+                    "agent": { "id": 0, "text": "พี่เบนซ์" },
+                    "timeStamp": { "text": "25 ม.ค. 2566" },
+                    "details": {
+                      "photos": [
+                        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTy_boXRraAmO2m95_QL7Gq6IYgO7H_3e6vzw&usqp=CAU",
+                        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTy_boXRraAmO2m95_QL7Gq6IYgO7H_3e6vzw&usqp=CAU",
+                        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTy_boXRraAmO2m95_QL7Gq6IYgO7H_3e6vzw&usqp=CAU"
+                      ],
+                      "latLng": "LatLng(latitude:13.847709, longtitude:100.657872)",
+                      "text": "ตอนนี้พาน้องกลับบ้านแล้วครับ"
+                    }
+                  },
+                  {
+                    "status": { "id": 3, "text": "ยกเลิก" },
+                    "agent": { "id": 0, "text": "พี่เบนซ์" },
+                    "timeStamp": { "text": "25 ม.ค. 2566" },
+                    "details": {
+                      "photos": [
+                        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTy_boXRraAmO2m95_QL7Gq6IYgO7H_3e6vzw&usqp=CAU",
+                        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTy_boXRraAmO2m95_QL7Gq6IYgO7H_3e6vzw&usqp=CAU",
+                        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTy_boXRraAmO2m95_QL7Gq6IYgO7H_3e6vzw&usqp=CAU"
+                      ],
+                      "latLng": "LatLng(latitude:13.847709, longtitude:100.657872)",
+                      "body": { "text": "ตอนนี้น้องโมโหแล้วครับ" }
+                    }
+                  },
+                  {
+                    "status": { "id": 3, "text": "ปฏิเสธ" },
+                    "agent": { "id": 0, "text": "พี่เบนซ์" },
+                    "timeStamp": { "text": "25 ม.ค. 2566" },
+                    "details": {
+                      "photos": [
+                        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTy_boXRraAmO2m95_QL7Gq6IYgO7H_3e6vzw&usqp=CAU",
+                        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTy_boXRraAmO2m95_QL7Gq6IYgO7H_3e6vzw&usqp=CAU",
+                        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTy_boXRraAmO2m95_QL7Gq6IYgO7H_3e6vzw&usqp=CAU"
+                      ],
+                      "latLng": "LatLng(latitude:13.847709, longtitude:100.657872)",
+                      "text": "ตอนนี้น้องไม่อยู่แล้วครับ"
+                    }
+                  }
+                ]
+              }
+            ],
+            "area": {
+              "details": [
+                {
+                  "id": 0,
+                  "reporter": { "id": 0, "text": "name" },
+                  "photos": [
+                    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTy_boXRraAmO2m95_QL7Gq6IYgO7H_3e6vzw&usqp=CAU"
+                  ],
+                  "latLng": "LatLng(latitude:13.846909, longtitude:100.657872)",
+                  "text": "text1"
+                },
+                {
+                  "id": 1,
+                  "reporter": { "id": 0, "text": "name" },
+                  "photos": [
+                    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTy_boXRraAmO2m95_QL7Gq6IYgO7H_3e6vzw&usqp=CAU"
+                  ],
+                  "latLng": "LatLng(latitude:13.846709, longtitude:100.657872)",
+                  "text": "text2dlshgskjghsdkghdglksdhgsdkjghdsgudfghdyghdyfkgshdufdhgfdgdsfhsldkihli;ghighld;shdgghs;hijbvgjdvbdfhknvffjbnfjd;lbnfdvjdklfbvdfn;sbhfdjsvdfhlvbvdsbnhdlvbnjkdfbvfdjvfbvjldfbavfdjkb;djkfbj flkcbfldjvbndfjvfnldjvnfdl;bnjdfkbfkvndfjkvdnjnfdjkvndfjfjdlnsijvbdfvldfj"
+                },
+                {
+                  "id": 2,
+                  "reporter": { "id": 0, "text": "name" },
+                  "photos": [
+                    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTy_boXRraAmO2m95_QL7Gq6IYgO7H_3e6vzw&usqp=CAU"
+                  ],
+                  "latLng": "LatLng(latitude:13.846759, longtitude:100.657872)",
+                  "text": "text3"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+      {
+      "id": 0,
+      "name": "urgentApps",
+      "apps": [
+        {
+          "configs": {
+            "app": {
+              "id": 1,
+              "name": "ไฟไหม้",
+              "api": {
+                "upload": "https://appdev.hostd4u.com/app/upload",
+                "report": "https://appdev.hostd4u.com/app/orders"
+              },
+              "logo": "https://i.pinimg.com/474x/7a/71/7c/7a717cb96bc34007643c9b8a88eb4ab8.jpg",
+              "background": "https://i.pinimg.com/474x/7a/71/7c/7a717cb96bc34007643c9b8a88eb4ab8.jpg",
+              "color": "ffc266",
+              "opacity": 0.15,
+              "padding": 11.0,
               "area": 1.0,
               "appBar": {
                 "text": "รายงานการดำเนินการ",
@@ -611,13 +1151,553 @@
           "configs": {
             "app": {
               "id": 0,
-              "name": "monkey",
+              "name": "ลิงก่อกวน",
               "api": {
                 "upload": "https://appdev.hostd4u.com/app/upload",
                 "report": "https://appdev.hostd4u.com/app/orders"
               },
               "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTy_boXRraAmO2m95_QL7Gq6IYgO7H_3e6vzw&usqp=CAU",
               "background": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTy_boXRraAmO2m95_QL7Gq6IYgO7H_3e6vzw&usqp=CAU",
+              "color": "6666FF",
+              "opacity": 0.15,
+              "padding": 8.0,
+              "area": 1.0,
+              "appBar": {
+                "text": "รายงานการดำเนินการ",
+                "textStyle": {
+                  "centerTitle": false,
+                  "size": 16.0,
+                  "bold": true,
+                  "maxLines": 1,
+                  "color": "F2F2F2"
+                },
+                "color": null
+              },
+              "head": {
+                "text": "รายงานการดำเนินการ",
+                "textStyle": {
+                  "centerTitle": false,
+                  "size": 16.0,
+                  "bold": true,
+                  "maxLines": 1,
+                  "color": "101213"
+                }
+              },
+              "actions": {
+                "report": {
+                  "text": "ยื่นเรื่อง",
+                  "icon": { "id": 0, "size": 14.0, "color": "ffffff" },
+                  "textStyle": {
+                    "centerTitle": false,
+                    "size": 16.0,
+                    "bold": true,
+                    "maxLines": 1,
+                    "color": "F2F2F2"
+                  },
+                  "widthPercent": 40.0,
+                  "shape": 100.0,
+                  "color": "002E9B"
+                },
+                "follows": {
+                  "text": "ติดตามสถานะ",
+                  "icon": null,
+                  "textStyle": {
+                    "centerTitle": false,
+                    "size": 16.0,
+                    "bold": true,
+                    "maxLines": 1,
+                    "color": "F2F2F2"
+                  },
+                  "widthPercent": 40.0,
+                  "shape": 100.0,
+                  "color": "19C243"
+                },
+                "area": {
+                  "text": "เหตุในพื้นที่",
+                  "icon": null,
+                  "textStyle": {
+                    "centerTitle": false,
+                    "size": 16.0,
+                    "bold": true,
+                    "maxLines": 1,
+                    "color": "F2F2F2"
+                  },
+                  "widthPercent": 40.0,
+                  "shape": 100.0,
+                  "color": "FFA500"
+                }
+              }
+            },
+            "report": {
+              "appBar": {
+                "text": "ยื่นเรื่อง",
+                "textStyle": {
+                  "centerTitle": false,
+                  "size": 16.0,
+                  "bold": true,
+                  "maxLines": 1,
+                  "color": "F2F2F2"
+                },
+                "color": null
+              },
+              "photos": { "heightPercent": 40.0, "color": null },
+              "actions": {
+                "camera": {
+                  "text": "กล้อง",
+                  "icon": null,
+                  "textStyle": {
+                    "centerTitle": true,
+                    "size": 16.0,
+                    "bold": true,
+                    "maxLines": 1,
+                    "color": "F2F2F2"
+                  },
+                  "widthPercent": 40.0,
+                  "shape": 100.0,
+                  "color": "002E9B"
+                },
+                "gallery": {
+                  "text": "คลังรูป",
+                  "icon": null,
+                  "textStyle": {
+                    "centerTitle": true,
+                    "size": 16.0,
+                    "bold": true,
+                    "maxLines": 1,
+                    "color": "F2F2F2"
+                  },
+                  "widthPercent": 40.0,
+                  "shape": 100.0,
+                  "color": "FFA500"
+                },
+                "upload": {
+                  "text": "ยืนยัน",
+                  "icon": null,
+                  "textStyle": {
+                    "centerTitle": true,
+                    "size": 16.0,
+                    "bold": true,
+                    "maxLines": 1,
+                    "color": "F2F2F2"
+                  },
+                  "widthPercent": 40.0,
+                  "shape": 100.0,
+                  "color": "19C243"
+                }
+              }
+            },
+            "follows": {
+              "appBar": {
+                "text": "ติดตามสถานะ",
+                "textStyle": {
+                  "centerTitle": false,
+                  "size": 16.0,
+                  "bold": true,
+                  "maxLines": 1,
+                  "color": "F2F2F2"
+                },
+                "color": null
+              },
+              "photos": { "heightPercent": 6, "color": null },
+              "status": {
+                "textStyle": {
+                  "centerTitle": false,
+                  "size": 16.0,
+                  "bold": true,
+                  "maxLines": 1,
+                  "color": "101213"
+                }
+              },
+              "timeStamp": {
+                "textStyle": {
+                  "centerTitle": false,
+                  "size": 16.0,
+                  "bold": true,
+                  "maxLines": 1,
+                  "color": "57636c"
+                }
+              },
+              "timelines": {
+                "appBar": {
+                  "text": "ยื่นเรื่อง",
+                  "textStyle": {
+                    "centerTitle": false,
+                    "size": 16.0,
+                    "bold": true,
+                    "maxLines": 1,
+                    "color": "F2F2F2"
+                  },
+                  "color": null
+                },
+                "body": {
+                  "status": {
+                    "textStyle": {
+                      "centerTitle": false,
+                      "size": 16.0,
+                      "bold": true,
+                      "maxLines": 1,
+                      "color": "101213"
+                    },
+                    "color": null
+                  },
+                  "agent": {
+                    "textStyle": {
+                      "centerTitle": false,
+                      "size": 16.0,
+                      "bold": true,
+                      "maxLines": 1,
+                      "color": "101213"
+                    },
+                    "color": null
+                  },
+                  "timeStamp": {
+                    "textStyle": {
+                      "centerTitle": false,
+                      "size": 16.0,
+                      "bold": true,
+                      "maxLines": 1,
+                      "color": "89df39"
+                    },
+                    "color": null
+                  },
+                  "heightPercent": 10.0,
+                  "color": null
+                },
+                "dotLine": {
+                  "size": { "dot": 20.0, "line": 10.0 },
+                  "color": {
+                    "onair": "4b39ef",
+                    "done": "39d2c0",
+                    "cancel": "ff5963",
+                    "line": "57636c"
+                  }
+                },
+                "status": { "size": 20.0, "color": "101213", "bold": true },
+                "agent": { "size": 16.0, "color": "101213", "bold": false },
+                "timeStamp": {
+                  "size": 14.0,
+                  "color": "57636c",
+                  "bold": false
+                },
+                "actions": {
+                  "view": {
+                    "icon": { "id": 0, "size": 14.0, "color": "ffffff" },
+                    "button": { "size": 20.0, "color": "002E9B" }
+                  },
+                  "edit": {
+                    "icon": { "id": 1, "size": 14.0, "color": "ffffff" },
+                    "button": { "size": 20.0, "color": "002E9B" }
+                  },
+                  "cancel": {
+                    "icon": { "id": 2, "size": 14.0, "color": "ffffff" },
+                    "button": { "size": 20.0, "color": "002E9B" }
+                  }
+                },
+                "details": {
+                  "appBar": {
+                    "text": "ยื่นเรื่อง",
+                    "textStyle": {
+                      "centerTitle": false,
+                      "size": 16.0,
+                      "bold": true,
+                      "maxLines": 1,
+                      "color": "101213"
+                    },
+                    "color": null
+                  },
+                  "photos": { "heightPercent": 40.0, "color": null },
+                  "body": {
+                    "textStyle": {
+                      "centerTitle": false,
+                      "size": 16.0,
+                      "bold": true,
+                      "maxLines": 1,
+                      "color": "101213"
+                    },
+                    "color": null
+                  },
+                  "actions": {
+                    "map": {
+                      "text": "แผนที่",
+                      "icon": null,
+                      "textStyle": {
+                        "centerTitle": true,
+                        "size": 14.0,
+                        "bold": true,
+                        "maxLines": 1,
+                        "color": "ffffff"
+                      },
+                      "widthPercent": 40.0,
+                      "shape": 100.0,
+                      "color": "19C243"
+                    }
+                  }
+                }
+              }
+            },
+            "area": {
+              "appBar": {
+                "text": "พื้นที่่",
+                "textStyle": {
+                  "centerTitle": false,
+                  "size": 16.0,
+                  "bold": true,
+                  "maxLines": 1,
+                  "color": "F2F2F2"
+                },
+                "color": null
+              },
+              "details": {
+                "appBar": {
+                  "text": "แผนที่",
+                  "textStyle": {
+                    "centerTitle": false,
+                    "size": 16.0,
+                    "bold": true,
+                    "maxLines": 1,
+                    "color": "F2F2F2"
+                  },
+                  "color": null
+                },
+                "photos": { "heightPercent": 40.0, "color": null },
+                "body": {
+                  "textStyle": {
+                    "centerTitle": false,
+                    "size": 16.0,
+                    "bold": true,
+                    "maxLines": 10,
+                    "color": "101213"
+                  },
+                  "color": "ffffff"
+                },
+                "actions": {
+                  "map": {
+                    "text": "แผนที่",
+                    "icon": null,
+                    "textStyle": {
+                      "centerTitle": true,
+                      "size": 14.0,
+                      "bold": true,
+                      "maxLines": 1,
+                      "color": "ffffff"
+                    },
+                    "widthPercent": 40.0,
+                    "shape": 100.0,
+                    "color": "19C243"
+                  }
+                }
+              }
+            },
+            "map": {
+              "report": {
+                "appBar": {
+                  "text": "แผนที่",
+                  "textStyle": {
+                    "centerTitle": false,
+                    "size": 16.0,
+                    "bold": true,
+                    "maxLines": 1,
+                    "color": "F2F2F2"
+                  },
+                  "color": null
+                },
+                "marker": {
+                  "icon": { "id": 2, "size": 30.0, "color": "CE0000" }
+                },
+                "actions": {
+                  "send": {
+                    "text": "ยื่นเรื่อง",
+                    "icon": null,
+                    "textStyle": {
+                      "centerTitle": true,
+                      "size": 16.0,
+                      "bold": true,
+                      "maxLines": 1,
+                      "color": "F2F2F2"
+                    },
+                    "widthPercent": 40.0,
+                    "shape": 100.0,
+                    "color": "19C243"
+                  }
+                }
+              },
+              "view": {
+                "appBar": {
+                  "text": "แผนที่",
+                  "textStyle": {
+                    "centerTitle": false,
+                    "size": 16.0,
+                    "bold": true,
+                    "maxLines": 1,
+                    "color": "F2F2F2"
+                  },
+                  "color": null
+                },
+                "marker": {
+                  "icon": { "id": 0, "size": 30.0, "color": "CE0000" }
+                },
+                "actions": {
+                  "open": {
+                    "text": "แผนที่",
+                    "icon": null,
+                    "textStyle": {
+                      "centerTitle": true,
+                      "size": 16.0,
+                      "bold": true,
+                      "maxLines": 1,
+                      "color": "F2F2F2"
+                    },
+                    "widthPercent": 40.0,
+                    "shape": 100.0,
+                    "color": "19C243"
+                  }
+                }
+              }
+            }
+          },
+          "data": {
+            "follows": [
+              {
+                "id": 0,
+                "reporter": { "id": 0, "text": "เฟย" },
+                "timelines": [
+                  {
+                    "status": { "id": 0, "text": "ยื่นเรื่อง" },
+                    "agent": { "id": 0, "text": "พี่เบนซ์" },
+                    "timeStamp": { "text": "25 ม.ค. 2566" },
+                    "details": {
+                      "photos": [
+                        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTy_boXRraAmO2m95_QL7Gq6IYgO7H_3e6vzw&usqp=CAU",
+                        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTy_boXRraAmO2m95_QL7Gq6IYgO7H_3e6vzw&usqp=CAU",
+                        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTy_boXRraAmO2m95_QL7Gq6IYgO7H_3e6vzw&usqp=CAU"
+                      ],
+                      "latLng": "LatLng(latitude:13.847709, longtitude:100.657872)",
+                      "text": "พบลิงก่อกวน"
+                    }
+                  },
+                  {
+                    "status": { "id": 1, "text": "รับเรื่อง" },
+                    "agent": { "id": 0, "text": "พี่เบนซ์" },
+                    "timeStamp": { "text": "25 ม.ค. 2566" },
+                    "details": {
+                      "photos": [
+                        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTy_boXRraAmO2m95_QL7Gq6IYgO7H_3e6vzw&usqp=CAU",
+                        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTy_boXRraAmO2m95_QL7Gq6IYgO7H_3e6vzw&usqp=CAU",
+                        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTy_boXRraAmO2m95_QL7Gq6IYgO7H_3e6vzw&usqp=CAU"
+                      ],
+                      "latLng": "LatLng(latitude:13.847709, longtitude:100.657872)",
+                      "text": "ตอนนี้รับเรื่องแล้วครับ"
+                    }
+                  },
+                  {
+                    "status": { "id": 1, "text": "ดำเนินการ" },
+                    "agent": { "id": 0, "text": "พี่เบนซ์" },
+                    "timeStamp": { "text": "25 ม.ค. 2566" },
+                    "details": {
+                      "photos": [
+                        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTy_boXRraAmO2m95_QL7Gq6IYgO7H_3e6vzw&usqp=CAU",
+                        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTy_boXRraAmO2m95_QL7Gq6IYgO7H_3e6vzw&usqp=CAU",
+                        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTy_boXRraAmO2m95_QL7Gq6IYgO7H_3e6vzw&usqp=CAU"
+                      ],
+                      "latLng": "LatLng(latitude:13.847709, longtitude:100.657872)",
+                      "text": "ตอนนี้เจอน้องแล้วครับ"
+                    }
+                  },
+                  {
+                    "status": { "id": 2, "text": "เสร็จสิ้น" },
+                    "agent": { "id": 0, "text": "พี่เบนซ์" },
+                    "timeStamp": { "text": "25 ม.ค. 2566" },
+                    "details": {
+                      "photos": [
+                        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTy_boXRraAmO2m95_QL7Gq6IYgO7H_3e6vzw&usqp=CAU",
+                        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTy_boXRraAmO2m95_QL7Gq6IYgO7H_3e6vzw&usqp=CAU",
+                        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTy_boXRraAmO2m95_QL7Gq6IYgO7H_3e6vzw&usqp=CAU"
+                      ],
+                      "latLng": "LatLng(latitude:13.847709, longtitude:100.657872)",
+                      "text": "ตอนนี้พาน้องกลับบ้านแล้วครับ"
+                    }
+                  },
+                  {
+                    "status": { "id": 3, "text": "ยกเลิก" },
+                    "agent": { "id": 0, "text": "พี่เบนซ์" },
+                    "timeStamp": { "text": "25 ม.ค. 2566" },
+                    "details": {
+                      "photos": [
+                        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTy_boXRraAmO2m95_QL7Gq6IYgO7H_3e6vzw&usqp=CAU",
+                        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTy_boXRraAmO2m95_QL7Gq6IYgO7H_3e6vzw&usqp=CAU",
+                        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTy_boXRraAmO2m95_QL7Gq6IYgO7H_3e6vzw&usqp=CAU"
+                      ],
+                      "latLng": "LatLng(latitude:13.847709, longtitude:100.657872)",
+                      "body": { "text": "ตอนนี้น้องโมโหแล้วครับ" }
+                    }
+                  },
+                  {
+                    "status": { "id": 3, "text": "ปฏิเสธ" },
+                    "agent": { "id": 0, "text": "พี่เบนซ์" },
+                    "timeStamp": { "text": "25 ม.ค. 2566" },
+                    "details": {
+                      "photos": [
+                        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTy_boXRraAmO2m95_QL7Gq6IYgO7H_3e6vzw&usqp=CAU",
+                        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTy_boXRraAmO2m95_QL7Gq6IYgO7H_3e6vzw&usqp=CAU",
+                        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTy_boXRraAmO2m95_QL7Gq6IYgO7H_3e6vzw&usqp=CAU"
+                      ],
+                      "latLng": "LatLng(latitude:13.847709, longtitude:100.657872)",
+                      "text": "ตอนนี้น้องไม่อยู่แล้วครับ"
+                    }
+                  }
+                ]
+              }
+            ],
+            "area": {
+              "details": [
+                {
+                  "id": 0,
+                  "reporter": { "id": 0, "text": "name" },
+                  "photos": [
+                    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTy_boXRraAmO2m95_QL7Gq6IYgO7H_3e6vzw&usqp=CAU"
+                  ],
+                  "latLng": "LatLng(latitude:13.846909, longtitude:100.657872)",
+                  "text": "text1"
+                },
+                {
+                  "id": 1,
+                  "reporter": { "id": 0, "text": "name" },
+                  "photos": [
+                    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTy_boXRraAmO2m95_QL7Gq6IYgO7H_3e6vzw&usqp=CAU"
+                  ],
+                  "latLng": "LatLng(latitude:13.846709, longtitude:100.657872)",
+                  "text": "text2dlshgskjghsdkghdglksdhgsdkjghdsgudfghdyghdyfkgshdufdhgfdgdsfhsldkihli;ghighld;shdgghs;hijbvgjdvbdfhknvffjbnfjd;lbnfdvjdklfbvdfn;sbhfdjsvdfhlvbvdsbnhdlvbnjkdfbvfdjvfbvjldfbavfdjkb;djkfbj flkcbfldjvbndfjvfnldjvnfdl;bnjdfkbfkvndfjkvdnjnfdjkvndfjfjdlnsijvbdfvldfj"
+                },
+                {
+                  "id": 2,
+                  "reporter": { "id": 0, "text": "name" },
+                  "photos": [
+                    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTy_boXRraAmO2m95_QL7Gq6IYgO7H_3e6vzw&usqp=CAU"
+                  ],
+                  "latLng": "LatLng(latitude:13.846759, longtitude:100.657872)",
+                  "text": "text3"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+   {
+      "id": 1,
+      "name": "normalApps",
+      "apps": [
+        {
+          "configs": {
+            "app": {
+              "id": 1,
+              "name": "สุนัขก่อกวน",
+              "api": {
+                "upload": "https://appdev.hostd4u.com/app/upload",
+                "report": "https://appdev.hostd4u.com/app/orders"
+              },
+              "logo": "https://img2.thaipng.com/20180520/bbp/kisspng-newfoundland-dog-computer-icons-pet-paw-clip-art-5b012b81dbdaf2.0770965515268033299005.jpg",
+              "background": "https://img2.thaipng.com/20180520/bbp/kisspng-newfoundland-dog-computer-icons-pet-paw-clip-art-5b012b81dbdaf2.0770965515268033299005.jpg",
               "color": "6666FF",
               "opacity": 0.15,
               "padding": 8.0,
