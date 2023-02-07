@@ -3,13 +3,13 @@
     "app": {
       "color": "ffc266",
       "appBar": {
-        "text": "eServices",
+        "text": "แจ้งเรื่อง",
         "textStyle": {
           "centerTitle": true,
-          "size": 30.0,
+          "size": 24.0,
           "bold": true,
           "maxLines": 1,
-          "color": "101213"
+          "color": "002e9b"
         },
         "color": "ffc266"
       },
@@ -32,15 +32,15 @@
         "id": 0,
         "name": "urgentApps",
         "head": {
-          "text": "เรื่องด่วน",
+          "text": "แจ้งเรื่องด่วน",
           "textStyle": {
             "centerTitle": false,
-            "size": 30.0,
+            "size": 20.0,
             "bold": true,
             "maxLines": 1,
             "color": "101213"
           },
-          "color": "FF4D4D"
+          "color": "fif4f8"
         },
         "body": { "color": null }
       },
@@ -48,15 +48,15 @@
         "id": 1,
         "name": "normalApps",
         "head": {
-          "text": "เรื่องทั่วไป",
+          "text": "แจ้งเรื่อง",
           "textStyle": {
             "centerTitle": false,
-            "size": 30.0,
+            "size": 20.0,
             "bold": true,
             "maxLines": 1,
             "color": "101213"
           },
-          "color": "6666FF"
+          "color": "fif4f8"
         },
         "body": { "color": null }
       }
@@ -71,14 +71,14 @@
           "configs": {
             "app": {
               "id": 0,
-              "name": "monkey",
+              "name": "ผู้ป่วยฉุกเฉิน",
               "api": {
                 "upload": "https://appdev.hostd4u.com/app/upload",
                 "report": "https://appdev.hostd4u.com/app/orders"
               },
-              "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTy_boXRraAmO2m95_QL7Gq6IYgO7H_3e6vzw&usqp=CAU",
+              "logo": "https://dminboundcdn.generali.co.th/custom-landing-page/cdn-v2/31623132-3633-6262-2d63-3765382d3131.png",
               "background": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTy_boXRraAmO2m95_QL7Gq6IYgO7H_3e6vzw&usqp=CAU",
-              "color": "FF4D4D",
+              "color": "fif4f8",
               "opacity": 0.15,
               "padding": 8.0,
               "area": 1.0,
