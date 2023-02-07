@@ -40,7 +40,7 @@
             "maxLines": 1,
             "color": "101213"
           },
-          "color": "fif4f8"
+          "color": "f1f4f8"
         },
         "body": { "color": null }
       },
@@ -56,7 +56,7 @@
             "maxLines": 1,
             "color": "101213"
           },
-          "color": "fif4f8"
+          "color": "f1f4f8"
         },
         "body": { "color": null }
       }
@@ -78,7 +78,7 @@
               },
               "logo": "https://dminboundcdn.generali.co.th/custom-landing-page/cdn-v2/31623132-3633-6262-2d63-3765382d3131.png",
               "background": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTy_boXRraAmO2m95_QL7Gq6IYgO7H_3e6vzw&usqp=CAU",
-              "color": "fif4f8",
+              "color": "f1f4f8",
               "opacity": 0.15,
               "padding": 8.0,
               "area": 1.0,
